@@ -1,0 +1,23 @@
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Site.Title}}</title>
+  <link rel="shortcut icon" type="image/png" href='/images/favicon.png'/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = 'canonical' href = '{{ .Permalink }}'>
+  {{- $options := (dict "targetPath" "main.css" "outputStyle" "expanded" "enableSourceMap" "true") -}}
+  {{- $styles := resources.Get "/main.scss" | resources.ToCSS $options }}
+  <link rel = 'stylesheet' href = '{{ $styles.Permalink }}' integrity = '{{ $styles.Data.Integrity }}'>
+  <link href='/fonts/firasans.css' rel="stylesheet">
+  <link href='/fonts/firamono.css' rel="stylesheet">
+  <link rel="stylesheet" href='/css/open-iconic-bootstrap.css' />
+  <link rel="stylesheet" href='/css/bootstrap.min.css'>
+  <link rel="stylesheet" href='/css/all.min.css'>
+  <noscript>
+    <style type="text/css">
+        .code-snippet {display:block;}
+        .code-snippet-2 {display:block;}
+        .snippets,.slider-round,.switch,.toggle {display:none;}
+        .no-js-banner {display:block;}
+    </style>
+</noscript>
+</head>

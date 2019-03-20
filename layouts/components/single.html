@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="row">
+    <div class="col-md-3 hidden-sm p-0">
+        <div class="row" style="height: 100%">
+            <div class="col-md-6 col-sm-16 col-xs-12 p-0">
+                {{ partial "navbar_side.html" . }}
+                
+                <!-- sidebarClassName="rb-sidebar__1" %} -->
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-3 p-0">
+                {{ partial "sidebar.html" . }}
+                <!-- sidebarClassName="rb-sidebar__2" %} -->
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-9 pt-3 pl-5">
+        {{ partial "components/alerts.html" . }}
+        {{ partial "components/buttons.html" . }}
+        {{ partial "components/badges.html" . }}
+        {{ partial "components/forms.html" . }}
+        {{ partial "components/tables.html" . }}
+        {{ partial "components/cards.html" . }}
+        {{ partial "components/paginate.html" . }}
+    </div>
+</div>
+{{ end }}

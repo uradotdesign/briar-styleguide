@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="row">
+    <div class="col-md-3 hidden-sm">
+        <div class="row" style="height: 100%">
+            <div class="col-md-6 col-sm-6 col-xs-6 p-0 display-md">
+                {{ partial "navbar_side.html" . }}
+                    <!-- sidebarClassName="rb-sidebar__1" %} -->
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-2 p-0">
+                {{ partial "sidebar.html" . }}
+                 <!-- sidebarClassName="rb-sidebar__2" %} -->
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-7 pt-3 pl-5 pr-5">
+      <!--{{ .Content }}-->
+        {{ partial "copywriting/voice.html" . }}
+    </div>
+</div>
+
+{{ end }}
