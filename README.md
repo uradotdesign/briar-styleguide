@@ -15,30 +15,25 @@ If you want to use SASS you can download the complete archive for the style guid
 
 Bootstrap contains a few JavaScript libraries for extra interaction with the DOM. We use these libraries but do not add extra JavaScript, so that only few elements are affected if you disable JavaScript.
 
-This styleguide has been built using Jekyll. Jekyll is a simple, blog-aware, static site generator. You can build this yourself by installing Jekyll.
+This styleguide has been built using Hugo. 
+
+> Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again
+ 
+You can build this yourself by installing Hugo.
 
 # Building
 
 Need to change to hugo asap
 
-Before you can modify the contents, you need to have Ruby and Jekyll installed.
-You can do that by running the following command.
+Before you can modify the contents, you need to have Hugo installed. Hugo extended is recommended when using sass. You can get hugo installation file from [Hugo Releases](https://github.com/gohugoio/hugo/releases); choose one depending on your OS. If stuck, here is a the [official hugo installation guide](https://gohugo.io/getting-started/installing/)
 
-`gem install bundler jekyll`
-
-After you install Jekyll, you need to clone the repo on your system.
-You can do that by running the command.
+Once Hugo is installed and added to PATH, you need to clone the repo on your system. You can do that by running the command.
 
 `git clone $REPO`
 
-After you have cloned the repo on your system, start by installing the bundle using the following command.
-
-`bundle install`
-
 Afterwards, execute the following command to build the project and to be able to browse it locally on your browser.
 
-`bundle exec jekyll serve`
-
+`hugo server`
 
 That's it! Now you can begin to modify the files and they will be automatically built and displayed on your localhost upon a page refresh.
 
