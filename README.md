@@ -19,6 +19,8 @@ This styleguide has been built using Jekyll. Jekyll is a simple, blog-aware, sta
 
 # Building
 
+Need to change to hugo asap
+
 Before you can modify the contents, you need to have Ruby and Jekyll installed.
 You can do that by running the following command.
 
