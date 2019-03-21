@@ -18,12 +18,10 @@ Bootstrap contains a few JavaScript libraries for extra interaction with the DOM
 This styleguide has been built using Hugo. 
 
 > Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again
- 
+
 You can build this yourself by installing Hugo.
 
 # Building
-
-Need to change to hugo asap
 
 Before you can modify the contents, you need to have Hugo installed. Hugo extended is recommended when using sass. You can get hugo installation file from [Hugo Releases](https://github.com/gohugoio/hugo/releases); choose one depending on your OS. If stuck, here is a the [official hugo installation guide](https://gohugo.io/getting-started/installing/)
 
