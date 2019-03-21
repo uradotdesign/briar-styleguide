@@ -23,9 +23,9 @@ You can build this yourself by installing Hugo.
 
 # Building
 
-Before you can modify the contents, you need to have Hugo installed. Hugo extended is recommended when using sass. You can get hugo installation file from [Hugo Releases](https://github.com/gohugoio/hugo/releases); choose one depending on your OS. If stuck, here is a the [official hugo installation guide](https://gohugo.io/getting-started/installing/)
+Before you can modify the contents, you need to have Hugo installed. Hugo extended is recommended when using sass. You can get the hugo installation file from [Hugo Releases](https://github.com/gohugoio/hugo/releases); choose one depending on your OS. If stuck, here is the [official hugo installation guide](https://gohugo.io/getting-started/installing/)
 
-Once Hugo is installed and added to PATH, you need to clone the repo on your system. You can do that by running the command.
+Once Hugo is installed and added to your PATH, you need to clone the repo on your system. You can do that by running the command.
 
 `git clone $REPO`
 
