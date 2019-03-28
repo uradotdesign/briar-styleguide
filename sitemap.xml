@@ -20,16 +20,16 @@
   </url>
   
   <url>
+    <loc>/design/</loc>
+  </url>
+  
+  <url>
     <loc>/getting-started/</loc>
   </url>
   
   <url>
     <loc>/tags/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/visuals/</loc>
   </url>
   
 </urlset>
