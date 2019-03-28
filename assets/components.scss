@@ -149,10 +149,11 @@
   border-color: transparent !important;
   padding: .08rem .4rem 0 !important;
   font-size: .8rem;
-  color: $oc-white;
+  color: $oc-white !important;
   &:hover {
     background-color: $secondary !important;
     border-color: transparent !important;
+    color: $oc-white !important;
   }
 }
 
@@ -161,11 +162,11 @@
   border-color: transparent !important;
   padding: .5rem 1rem !important;
   font-size: 1rem !important;
-  color: $oc-white;
+  color: $oc-white !important;
   &:hover {
     background-color: $secondary !important;
     border-color: transparent !important;
-    color: $oc-white;
+    color: $oc-white !important;
   }
 }
 
