@@ -2,9 +2,12 @@
     font-weight: 600 !important;
 }
 
-.border-left-right {
-    // z-index: 99;
-    border-right: 1px solid $oc-gray-3 !important;
+.nav-link {
+  color: $oc-white !important;
+
+  &:hover {
+    color: $oc-black !important;
+  }
 }
 
 .sidebar {
@@ -154,8 +157,4 @@ background-color: #DFDFDF !important;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: .5rem;
-}
-
-.nav-link {
-  color: $oc-white !important;
 }
