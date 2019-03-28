@@ -146,6 +146,10 @@
   padding-bottom: .5rem;
 }
 
+.nav-link {
+  color: #ffffff !important;
+}
+
 .color {
   height: 100px;
 }
