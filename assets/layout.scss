@@ -11,7 +11,7 @@
   min-height: 100vh;
   height: 100%;
   width: 100%;
-  border-right: 1px solid $oc-gray-3 !important;
+  background-color: #E5E5E5;
 
   // position: fixed;
 
@@ -35,7 +35,7 @@
 }
 
 .sidebar__link__darkGray {
-  color: $oc-gray-6 !important;
+  color: $oc-sidebar !important;
 
   &:hover {
     color: $oc-black !important;

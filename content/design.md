@@ -1,7 +1,7 @@
 ---
-title: Visuals
-permalink: /visuals/
-type: visuals
+title: Design
+permalink: /design/
+type: design
 sidebar:
   - colors: Colors
   - grid: Grid
