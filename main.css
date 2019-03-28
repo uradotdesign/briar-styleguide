@@ -1,5 +1,5 @@
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  font-weight: 400 !important;
+  font-weight: 600 !important;
 }
 
 .border-left-right {
@@ -633,7 +633,7 @@ input:checked + .slider:before {
 
 body {
   color: #212529;
-  font-family: "Fira Sans", sans-serif !important;
+  font-family: "Inter", sans-serif !important;
   font-size: 1rem;
 }
 
