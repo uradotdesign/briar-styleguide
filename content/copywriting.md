@@ -2,7 +2,7 @@
 title: Copywriting
 permalink: /copywriting/
 type: copywriting
-sidebar:
+sidebar_copywriting:
   - voice: Voice & Tone
 ---
 

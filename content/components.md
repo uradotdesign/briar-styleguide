@@ -2,7 +2,7 @@
 title: Components
 permalink: /components/
 type: components
-sidebar:
+sidebar_components:
   - alerts: Alerts
   - buttons: Buttons
   - badges: Badges

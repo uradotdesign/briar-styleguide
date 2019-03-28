@@ -2,7 +2,7 @@
 title: Design
 permalink: /design/
 type: design
-sidebar:
+sidebar_design:
   - colors: Colors
   - grid: Grid
   - typography: Typography
