@@ -378,7 +378,7 @@
   margin-left: 10px;
 }
 
-.switch input { 
+.switch input {
   opacity: 0;
   width: 0;
   height: 0;
@@ -409,11 +409,11 @@
 }
 
 input:checked + .slider {
-  background-color: #045fb4;
+  background-color: $primary;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #045fb4;
+  box-shadow: 0 0 1px $primary;
 }
 
 input:checked + .slider:before {

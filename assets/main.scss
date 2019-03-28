@@ -1,4 +1,4 @@
-@import 
+@import
   'vars',
   'layout',
   'visuals',
@@ -13,4 +13,9 @@ body {
 
 a {
   text-decoration: none !important;
+  color: $primary !important;
 }
+
+a:hover {
+    color: $secondary !important;
+  }
