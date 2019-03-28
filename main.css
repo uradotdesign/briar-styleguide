@@ -584,11 +584,11 @@
 }
 
 input:checked + .slider {
-  background-color: #045fb4;
+  background-color: #87C214;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #045fb4;
+  box-shadow: 0 0 1px #87C214;
 }
 
 input:checked + .slider:before {
@@ -634,6 +634,11 @@ body {
 
 a {
   text-decoration: none !important;
+  color: #87C214 !important;
+}
+
+a:hover {
+  color: #C1392B !important;
 }
 
 /*# sourceMappingURL=main.css.map */
