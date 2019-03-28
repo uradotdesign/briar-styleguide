@@ -10,6 +10,11 @@
   color: #000000 !important;
 }
 
+.navbar-wide-logo {
+  padding: 1rem 2rem 1.5rem 2rem;
+  text-align: center;
+}
+
 .sidebar {
   min-height: 100vh;
   height: 100%;
@@ -151,6 +156,12 @@
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: .5rem;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    display: none !important;
+  }
 }
 
 .color {
