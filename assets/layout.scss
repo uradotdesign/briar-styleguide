@@ -46,7 +46,7 @@
   }
 
   &:active {
-    color: $primary !important;
+    color: $oc-black !important;
   }
 }
 
@@ -60,11 +60,10 @@
 
 .active,
 .active:hover {
- // background-color: $oc-gray-3 !important;
-//	box-shadow: inset 5px 0 $primary;
+background-color: #d9dcdf !important;
 
   & * {
-    color: $primary !important;
+    color: $oc-black !important;
   }
 }
 
@@ -122,7 +121,7 @@
 	 }
 }
 .list-group-item.active {
-	color: $primary !important;
+	color: $oc-black !important;
 }
 
 .rb-sidebar__2 .list-group-item {
