@@ -22,16 +22,22 @@
   border: 0;
   border-radius: 0 !important;
   font-size: 1rem;
-  font-weight: 400 !important;
-  padding-left: 1.1rem !important;
+  font-weight: 600 !important;
+  padding: 1rem 1.1rem !important;
 }
 
 .sidebar-wrapper {
   background-color: #dee2e6;
 }
 
+.list-group-item.inner-sidebar {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  color: #4F4F4F !important;
+  padding: 1rem 2.5rem !important;
+}
+
 .sidebar__link__darkGray {
-  color: #5c666f !important;
+  color: #4F4F4F !important;
 }
 
 .sidebar__link__darkGray:hover {
@@ -46,17 +52,13 @@
   color: #000000 !important;
 }
 
-.rb-sidebar__2 {
-  background-color: #F8F9FA !important;
-}
-
 .row {
   margin: auto !important;
 }
 
 .active,
 .active:hover {
-  background-color: #d9dcdf !important;
+  background-color: #DFDFDF !important;
 }
 
 .active *,
@@ -111,15 +113,11 @@
 
 .list-group-item:focus *,
 .list-group-item:hover * {
-  color: #74B816;
+  color: #000000;
 }
 
 .list-group-item.active {
   color: #000000 !important;
-}
-
-.rb-sidebar__2 .list-group-item {
-  width: 100%;
 }
 
 .bg-primary {
