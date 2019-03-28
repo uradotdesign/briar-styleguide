@@ -43,7 +43,7 @@
 }
 
 .sidebar__link__darkGray:active {
-  color: #74B816 !important;
+  color: #000000 !important;
 }
 
 .rb-sidebar__2 {
@@ -54,9 +54,14 @@
   margin: auto !important;
 }
 
+.active,
+.active:hover {
+  background-color: #d9dcdf !important;
+}
+
 .active *,
 .active:hover * {
-  color: #74B816 !important;
+  color: #000000 !important;
 }
 
 .rp-navbar__top {
@@ -110,7 +115,7 @@
 }
 
 .list-group-item.active {
-  color: #74B816 !important;
+  color: #000000 !important;
 }
 
 .rb-sidebar__2 .list-group-item {
