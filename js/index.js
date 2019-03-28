@@ -48,11 +48,18 @@ $('.rb-sidebar').on('click',function() {
     $(this).addClass('active');
 });
 
-
 $(".snippets").click(function() {
   $(this).closest("div").next(".row").find(".code-snippet").toggle();
 });
 
 $(".snippets-buttons").click(function() {
   $(this).closest("div").find(".code-snippet-2").toggle();
+});
+
+$(function() {
+   $('.color_copy').click(function() {
+     $(this).focus();
+     $(this).select();
+     document.execCommand('copy');
+   });
 });

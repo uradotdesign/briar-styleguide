@@ -2,8 +2,12 @@
   font-weight: 600 !important;
 }
 
-.border-left-right {
-  border-right: 1px solid #dee2e6 !important;
+.nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #000000 !important;
 }
 
 .sidebar {
@@ -147,10 +151,6 @@
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: .5rem;
-}
-
-.nav-link {
-  color: #ffffff !important;
 }
 
 .color {
@@ -616,6 +616,27 @@ input:checked + .slider:before {
 .bg-grey {
   background-color: #dee2e6 !important;
   color: #000;
+}
+
+.color_copy {
+  cursor: pointer;
+  -webkit-touch-callout: all;
+  /* iOS Safari */
+  -webkit-user-select: all;
+  /* Safari */
+  -khtml-user-select: all;
+  /* Konqueror HTML */
+  -moz-user-select: all;
+  /* Firefox */
+  -ms-user-select: all;
+  /* Internet Explorer/Edge */
+  user-select: all;
+  /* Chrome and Opera */
+}
+
+.color_copy:hover {
+  transform: scale(1.1);
+  transition-duration: .1s;
 }
 
 @media (min-width: 992px) {
