@@ -321,12 +321,13 @@
   border-color: transparent !important;
   padding: .08rem .4rem 0 !important;
   font-size: .8rem;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .btn-small:hover {
   background-color: #C1392B !important;
   border-color: transparent !important;
+  color: #ffffff !important;
 }
 
 .btn-medium {
@@ -334,13 +335,13 @@
   border-color: transparent !important;
   padding: .5rem 1rem !important;
   font-size: 1rem !important;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .btn-medium:hover {
   background-color: #C1392B !important;
   border-color: transparent !important;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .btn-outline-medium {
