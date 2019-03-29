@@ -63,3 +63,12 @@ $(function() {
      document.execCommand('copy');
    });
 });
+
+$(document).ready(function(){
+  var button = $('.theme_toggle');
+  var container = $('body');
+
+  button.click(function() {
+    container.toggleClass('dark');
+  });
+});

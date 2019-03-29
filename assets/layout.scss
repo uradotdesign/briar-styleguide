@@ -47,6 +47,25 @@
   background-color: $oc-gray-300;
 }
 
+#theme_toggle {
+  position: fixed;
+  bottom: 10px;
+  left: 5px;
+}
+
+.theme_toggle {
+  border: none;
+  font-weight: bold;
+  color: var(--sidebar-text);
+  padding: 1rem 1rem !important;
+  cursor: pointer;
+  background-color: var(--sidebar-bg);
+
+  &:focus {
+    outline:none;
+  }
+}
+
 .list-group-item.inner-sidebar {
   background-color: hsla(0,0%,100%,.3) !important;
   color: $oc-sb !important;
