@@ -44,6 +44,25 @@
   background-color: #CCCCCC;
 }
 
+#theme_toggle {
+  position: fixed;
+  bottom: 10px;
+  left: 5px;
+}
+
+.theme_toggle {
+  border: none;
+  font-weight: bold;
+  color: var(--sidebar-text);
+  padding: 1rem 1rem !important;
+  cursor: pointer;
+  background-color: var(--sidebar-bg);
+}
+
+.theme_toggle:focus {
+  outline: none;
+}
+
 .list-group-item.inner-sidebar {
   background-color: rgba(255, 255, 255, 0.3) !important;
   color: #4F4F4F !important;
