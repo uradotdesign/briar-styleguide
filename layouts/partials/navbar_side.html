@@ -16,14 +16,6 @@
 
           <a href="/brand/" class="sidebar__link__darkGray">
               <li class="list-group-item rb-main-sidebar"><i class="material-icons">star</i> Brand</li>
-              {{ range .Params.sidebar_design }}
-                {{ range . }}
-                  <!-- first index -->
-                  <a href="#{{ (lower .) | anchorize }}"><li class="list-group-item rb-sidebar inner-sidebar">
-                    {{ . }} <!-- second index -->
-                  </li></a>
-                {{ end }}
-              {{ end }}
           </a>
 
           <a href="/design/" class="sidebar__link__darkGray">
