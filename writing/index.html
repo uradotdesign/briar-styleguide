@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-	<meta name="generator" content="Hugo 0.54.0" />
   <meta charset="utf-8">
   <title>Briar</title>
   <link rel="shortcut icon" type="image/png" href='/images/favicon.png'/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel = 'canonical' href = '/'>
+  <link rel = 'canonical' href = '/writing/'>
   <link rel = 'stylesheet' href = '/main.css' integrity = ''>
   <link href='/fonts/inter.css' rel="stylesheet">
   <link rel="stylesheet" href='/css/open-iconic-bootstrap.css' />
@@ -54,10 +53,10 @@
 
     
 <div class="row">
-  <div class="col-md-3 col-sm-4 col-xs-4 p-0">
-    <div class="row" style="height: 100%">
-      <div class="col-md-6 col-sm-6 col-xs-6 p-0 display-md sidebar-fill">
-        <div class="sidebar " id="sidebar1">
+    <div class="col-md-3 col-sm-4 col-xs-4 p-0">
+        <div class="row" style="height: 100%">
+            <div class="col-md-6 col-sm-6 col-xs-6 p-0 display-md">
+                <div class="sidebar " id="sidebar1">
 
     <ul id="sidebar-left" class="col-sm-16 col-xs-12 p-0 list-group pt-0 sidebar-fill">
 
@@ -92,50 +91,37 @@
           <a href="/writing/" class="sidebar__link__darkGray">
               <li class="list-group-item rb-main-sidebar"><i class="material-icons">text_format</i> Writing</li>
               
+                
+                  
+                  <a href="#voice-tone"><li class="list-group-item rb-sidebar inner-sidebar">
+                    Voice &amp; Tone 
+                  </li></a>
+                
+              
           </a>
     </ul>
   </div>
 
-      </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="col-md-7 col-xs-12 col-sm-12 p-0">
-    <main role="main" class="content-scroll p-5" data-spy="scroll" data-target="#components-nav" data-offset="0">
-      <div class="row">
-        <div class="col-12 p-0">
-          <div class="page-header mb-4">
-            <h3>About</h3>
-            <p class="text-muted">Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices.</p>
-          </div>
-          <p>This guide aims to provide standards, principles and components to design consistent views related to the Briar Project. These pages are a living document and we welcome contributions, feedback and suggestions.</p>
-        </p>
-        <br>
-        <h5>Contact</h5>
-        <div class="row mt-5">
-          <div class="col-md-6 p-0">
-            <div class="bg-box p-5 mb-3">
-              <h6>Briar</h6>
-              <a class="btn btn-lg btn-link p-0" title="Briar Email" href="mailto: contact@briarproject.org" target="_blank">contact@briarproject.org</a></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 p-0">
-          <div class="page-header mb-4 mt-5">
-            <h5>Identihub</h5>
-            <p class="text-muted">The Briar Project brand assets are included in this Identihub project page.</p>
-          </div>
-          <div class="row mt-5">
-            <div class="col-md-6 p-0">
-              <div class="bg-box p-5 mb-3 text-left">
-                <h6>Styleguide Mirror on Identihub</h6>
-                <p class="m-0"></p>
-                <a class="btn btn-lg btn-link p-0" href="https://demo.identihub.co/briarproject" target="_blank">Project Page</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <h1 id="scrollspy"> </h1>
+    <div class="col-md-7 col-xs-12 col-sm-12 pt-5">
+                <div id="voice-tone" class="mb-4">
+        <h2 class="b-border">Voice and Tone</h2>
+        
+    </div>
+        <div class="row">
+            <div class="col-12 p-0">
+                <p>SecureDrop is employed by many of the world’s leading news organizations to handle sensitive information shared by sources whose safety may depend on complete anonymity. It is used to report about matters of local, national or international significance; sometimes, submissions may concern matters of life and death. How we communicate should reflect the seriousness and importance of these objectives.
+                <p>The concept of “Voice” reflects communication goals that do not change. “Tone” is how the “Voice” varies, given a user’s context. </p>
+                <ul>
+                  <li><b>Voice</b> <br />Use <a href="https://writing.wisc.edu/Handbook/CCS_activevoice.html">active voice</a>; be precise and direct. Ambiguity can create security risks (e.g., if it is unclear whether a step we ask the user to take is required or optional for their security). It is important to keep written language simple and concise, in service of users' specific goals. This also aids faithful translation and understanding by non-native speakers.</li><br />
+                  <li><b>Tone</b> <br/ >Tone should be neutral, nonjudgmental, and crafted to influence action without inciting panic or indifference. Try to manage a user’s expectations and to inform their choices with empathy for the context of their activity. Sources and journalists engage with SecureDrop because of trust in it and the media organizations that install it. It is paramount to honor and respect that trust. For example: a severe or urgent security issue should be toned differently than guiding text. Whether in the user interface, the documentation, or support communications, phrases like “Important”, “Action required”, “Tip”, “Further reading”, should always be used deliberately. Empathize in a manner consistent with our voice. For example, if you want to communicate that a certain part of the installation process will take 3 hours (respecting our users’ time), there is no need for long prose&mdash;instead, give a simple indicator in the documentation to that effect.</li>
+                </ul>
+                </div>
+
+    </div>
+    <h1 id="scrollspy"> </h1>
 <div class="page-header mb-4 mt-5 d-none d-sm-none">
     <h3>Scrollspy</h3>
     
@@ -170,9 +156,8 @@
     </div>
 </div>
 
-    </main>
-  </div>
 </div>
+
 
     <script src='/js/modernizr.min.js'></script>
 <script src='/js/jquery-3.3.1.slim.min.js'></script>
