@@ -13,19 +13,24 @@
 .navbar-wide-logo {
   padding: 1rem 2rem 1.5rem 2rem;
   text-align: center;
+  background-color: $oc-white;
 }
 
 .sidebar {
   min-height: 100vh;
   height: 100%;
   width: 100%;
-  background-color: #E5E5E5;
+  background-color: var(--sidebar-bg);
 
   // position: fixed;
 
   & .list-group {
     position: fixed;
     // width: 23vw;
+  }
+
+  & .material-icons {
+    letter-spacing: 10px;
   }
 
   & .list-group-item {
@@ -39,7 +44,7 @@
 }
 
 .sidebar-wrapper {
-  background-color: $oc-gray-3;
+  background-color: $oc-gray-300;
 }
 
 .list-group-item.inner-sidebar {
@@ -49,7 +54,7 @@
 }
 
 .sidebar__link__darkGray {
-  color: $oc-sb !important;
+  color: var(--sidebar-text) !important;
 
   &:hover {
     color: $oc-black !important;

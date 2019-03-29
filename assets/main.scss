@@ -6,7 +6,7 @@
   'state';
 
 body {
-	color: $oc-gray-9;
+	color: $oc-gray-900;
   font-family: $font;
 	font-size: 1rem;
 }
@@ -19,3 +19,13 @@ a {
 a:hover {
     color: $secondary !important;
   }
+
+:root {
+    --sidebar-bg: #{$oc-gray-100};
+    --sidebar-text: #{$oc-gray-800};
+}
+
+.dark {
+    --sidebar-bg: #{$oc-night-800};
+    --sidebar-text: #{$oc-gray-100};
+}
