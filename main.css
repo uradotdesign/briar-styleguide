@@ -13,17 +13,22 @@
 .navbar-wide-logo {
   padding: 1rem 2rem 1.5rem 2rem;
   text-align: center;
+  background-color: #ffffff;
 }
 
 .sidebar {
   min-height: 100vh;
   height: 100%;
   width: 100%;
-  background-color: #E5E5E5;
+  background-color: var(--sidebar-bg);
 }
 
 .sidebar .list-group {
   position: fixed;
+}
+
+.sidebar .material-icons {
+  letter-spacing: 10px;
 }
 
 .sidebar .list-group-item {
@@ -36,7 +41,7 @@
 }
 
 .sidebar-wrapper {
-  background-color: #dee2e6;
+  background-color: #CCCCCC;
 }
 
 .list-group-item.inner-sidebar {
@@ -46,7 +51,7 @@
 }
 
 .sidebar__link__darkGray {
-  color: #4F4F4F !important;
+  color: var(--sidebar-text) !important;
 }
 
 .sidebar__link__darkGray:hover {
@@ -181,7 +186,7 @@
 
 .icon {
   font-size: 20px;
-  background-color: #e9ecef;
+  background-color: #DFDFDF;
   padding: 20px;
 }
 
@@ -262,43 +267,47 @@
 }
 
 .background-gray-0 {
-  background-color: #f8f9fa;
+  background-color: #FAFAFA;
 }
 
 .background-gray-1 {
-  background-color: #f1f3f5;
+  background-color: #F2F2F2;
 }
 
 .background-gray-2 {
-  background-color: #e9ecef;
+  background-color: #DFDFDF;
 }
 
 .background-gray-3 {
-  background-color: #dee2e6;
+  background-color: #CCCCCC;
 }
 
 .background-gray-4 {
-  background-color: #ced4da;
+  background-color: #BABABA;
 }
 
 .background-gray-5 {
-  background-color: #adb5bd;
+  background-color: #A7A7A7;
 }
 
 .background-gray-6 {
-  background-color: #868e96;
+  background-color: #919191;
 }
 
 .background-gray-7 {
-  background-color: #495057;
+  background-color: #707070;
 }
 
 .background-gray-8 {
-  background-color: #343a40;
+  background-color: #4F4F4F;
 }
 
 .background-gray-9 {
-  background-color: #212529;
+  background-color: #2E2E2E;
+}
+
+.background-gray-10 {
+  background-color: #1F1F1F;
 }
 
 .color-primary {
@@ -310,7 +319,7 @@
 }
 
 .color-gray-2 {
-  color: #868e96;
+  color: #919191;
 }
 
 .rb-code {
@@ -537,7 +546,7 @@
 }
 
 .mark, mark {
-  background-color: #e9ecef !important;
+  background-color: #DFDFDF !important;
   padding: .2em !important;
 }
 
@@ -667,7 +676,7 @@ input:checked + .slider:before {
 }
 
 body {
-  color: #212529;
+  color: #2E2E2E;
   font-family: "Inter", sans-serif !important;
   font-size: 1rem;
 }
@@ -679,6 +688,16 @@ a {
 
 a:hover {
   color: #C1392B !important;
+}
+
+:root {
+  --sidebar-bg: #F2F2F2;
+  --sidebar-text: #4F4F4F;
+}
+
+.dark {
+  --sidebar-bg: #134A81;
+  --sidebar-text: #F2F2F2;
 }
 
 /*# sourceMappingURL=main.css.map */
