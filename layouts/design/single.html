@@ -4,13 +4,11 @@
     <div class="row" style="height: 100%">
       <div class="col-md-6 col-sm-6 col-xs-6 p-0">
         {{ partial "navbar_side.html" . }}
-        <!-- sidebarClassName="rb-sidebar__1" -->
       </div>
     </div>
   </div>
   <div class="col-md-7 col-xs-12 col-sm-12 pt-5">
     {{ .Content }}
-    <!-- participants=site.data.profiles -->
     {{ partial "design/colors.html" . }}
     {{ partial "design/grid.html" . }}
     {{ partial "design/typography.html" . }}
