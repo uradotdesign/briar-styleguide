@@ -17,20 +17,23 @@
 }
 
 .sidebar {
-  min-height: 100vh;
   height: 100%;
-  width: 100%;
+  width: 12.45%;
   background-color: var(--sidebar-bg);
-
-  // position: fixed;
+  position: fixed;
+  top: 0;
+  left: 0;
 
   & .list-group {
     position: fixed;
-    // width: 23vw;
   }
 
   & .material-icons {
     letter-spacing: 10px;
+    transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
   }
 
   & .list-group-item {
