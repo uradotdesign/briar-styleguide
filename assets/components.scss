@@ -3,12 +3,12 @@
   padding: 15px !important;
   margin-bottom: 25px !important;
 	&-primary {
-		color: $oc-white !important;
+		color: $white !important;
 		background-color: $primary !important;
 		border-color: transparent !important;
 	}
 	&-secondary {
-		color: $oc-black !important;
+		color: $black !important;
 		background-color: #f0f0f0 !important;
 		border-color: transparent !important;
 	}
@@ -45,6 +45,8 @@
 	}
 }
 
+// General Background
+
 .background-primary {
   background-color: $primary;
 }
@@ -69,48 +71,551 @@
   background-color: $star;
 }
 
-.background-gray-0 {
-  background-color: $oc-gray-50;
+// Gray Background
+
+.background-gray-50 {
+  background-color: $gray-50;
 }
 
-.background-gray-1 {
-  background-color: $oc-gray-100;
+.background-gray-100 {
+  background-color: $gray-100;
 }
 
-.background-gray-2 {
-  background-color: $oc-gray-200;
+.background-gray-200 {
+  background-color: $gray-200;
 }
 
-.background-gray-3 {
-  background-color: $oc-gray-300;
+.background-gray-300 {
+  background-color: $gray-300;
 }
 
-.background-gray-4 {
-  background-color: $oc-gray-400;
+.background-gray-400 {
+  background-color: $gray-400;
 }
 
-.background-gray-5 {
-  background-color: $oc-gray-500;
+.background-gray-500 {
+  background-color: $gray-500;
 }
 
-.background-gray-6 {
-  background-color: $oc-gray-600;
+.background-gray-600 {
+  background-color: $gray-600;
 }
 
-.background-gray-7 {
-  background-color: $oc-gray-700;
+.background-gray-700 {
+  background-color: $gray-700;
 }
-.background-gray-8 {
-  background-color: $oc-gray-800;
-}
-
-.background-gray-9 {
-  background-color: $oc-gray-900;
+.background-gray-800 {
+  background-color: $gray-800;
 }
 
-.background-gray-10 {
-  background-color: $oc-gray-950;
+.background-gray-900 {
+  background-color: $gray-900;
 }
+
+.background-gray-950 {
+  background-color: $gray-950;
+}
+
+// Gray Border
+
+.border-gray-50 {
+  border: 1px solid $gray-50;
+}
+
+.border-gray-100 {
+  border: 1px solid $gray-100;
+}
+
+.border-gray-200 {
+  border: 1px solid $gray-200;
+}
+
+.border-gray-300 {
+  border: 1px solid $gray-300;
+}
+
+.border-gray-400 {
+  border: 1px solid $gray-400;
+}
+
+.border-gray-500 {
+  border: 1px solid $gray-500;
+}
+
+.border-gray-600 {
+  border: 1px solid $gray-600;
+}
+
+.border-gray-700 {
+  border: 1px solid $gray-700;
+}
+.border-gray-800 {
+  border: 1px solid $gray-800;
+}
+
+.border-gray-900 {
+  border: 1px solid $gray-900;
+}
+
+.border-gray-950 {
+  border: 1px solid $gray-950;
+}
+
+// Lime Background
+
+.background-lime-50 {
+  background-color: $lime-50;
+}
+
+.background-lime-100 {
+  background-color: $lime-100;
+}
+
+.background-lime-200 {
+  background-color: $lime-200;
+}
+
+.background-lime-300 {
+  background-color: $lime-300;
+}
+
+.background-lime-400 {
+  background-color: $lime-400;
+}
+
+.background-lime-500 {
+  background-color: $lime-500;
+}
+
+.background-lime-600 {
+  background-color: $lime-600;
+}
+
+.background-lime-700 {
+  background-color: $lime-700;
+}
+
+.background-lime-800 {
+  background-color: $lime-800;
+}
+
+.background-lime-900 {
+  background-color: $lime-900;
+}
+
+.background-lime-950 {
+  background-color: $lime-950;
+}
+
+// Lime Border
+
+.border-lime-50 {
+  border: 1px solid $lime-50;
+}
+
+.border-lime-100 {
+  border: 1px solid $lime-100;
+}
+
+.border-lime-200 {
+  border: 1px solid $lime-200;
+}
+
+.border-lime-300 {
+  border: 1px solid $lime-300;
+}
+
+.border-lime-400 {
+  border: 1px solid $lime-400;
+}
+
+.border-lime-500 {
+  border: 1px solid $lime-500;
+}
+
+.border-lime-600 {
+  border: 1px solid $lime-600;
+}
+
+.border-lime-700 {
+  border: 1px solid $lime-700;
+}
+.border-lime-800 {
+  border: 1px solid $lime-800;
+}
+
+.border-lime-900 {
+  border: 1px solid $lime-900;
+}
+
+.border-lime-950 {
+  border: 1px solid $lime-950;
+}
+
+// Blue Background
+
+.background-blue-50 {
+  background-color: $blue-50;
+}
+
+.background-blue-100 {
+  background-color: $blue-100;
+}
+
+.background-blue-200 {
+  background-color: $blue-200;
+}
+
+.background-blue-300 {
+  background-color: $blue-300;
+}
+
+.background-blue-400 {
+  background-color: $blue-400;
+}
+
+.background-blue-500 {
+  background-color: $blue-500;
+}
+
+.background-blue-600 {
+  background-color: $blue-600;
+}
+
+.background-blue-700 {
+  background-color: $blue-700;
+}
+
+.background-blue-800 {
+  background-color: $blue-800;
+}
+
+.background-blue-900 {
+  background-color: $blue-900;
+}
+
+.background-blue-950 {
+  background-color: $blue-950;
+}
+
+// Blue Border
+
+.border-blue-50 {
+  border: 1px solid $blue-50;
+}
+
+.border-blue-100 {
+  border: 1px solid $blue-100;
+}
+
+.border-blue-200 {
+  border: 1px solid $blue-200;
+}
+
+.border-blue-300 {
+  border: 1px solid $blue-300;
+}
+
+.border-blue-400 {
+  border: 1px solid $blue-400;
+}
+
+.border-blue-500 {
+  border: 1px solid $blue-500;
+}
+
+.border-blue-600 {
+  border: 1px solid $blue-600;
+}
+
+.border-blue-700 {
+  border: 1px solid $blue-700;
+}
+.border-blue-800 {
+  border: 1px solid $blue-800;
+}
+
+.border-blue-900 {
+  border: 1px solid $blue-900;
+}
+
+.border-blue-950 {
+  border: 1px solid $blue-950;
+}
+
+// Night Background
+
+.background-night-50 {
+  background-color: $night-50;
+}
+
+.background-night-100 {
+  background-color: $night-100;
+}
+
+.background-night-200 {
+  background-color: $night-200;
+}
+
+.background-night-300 {
+  background-color: $night-300;
+}
+
+.background-night-400 {
+  background-color: $night-400;
+}
+
+.background-night-500 {
+  background-color: $night-500;
+}
+
+.background-night-600 {
+  background-color: $night-600;
+}
+
+.background-night-700 {
+  background-color: $night-700;
+}
+
+.background-night-800 {
+  background-color: $night-800;
+}
+
+.background-night-900 {
+  background-color: $night-900;
+}
+
+.background-night-950 {
+  background-color: $night-950;
+}
+
+// Night Border
+
+.border-night-50 {
+  border: 1px solid $night-50;
+}
+
+.border-night-100 {
+  border: 1px solid $night-100;
+}
+
+.border-night-200 {
+  border: 1px solid $night-200;
+}
+
+.border-night-300 {
+  border: 1px solid $night-300;
+}
+
+.border-night-400 {
+  border: 1px solid $night-400;
+}
+
+.border-night-500 {
+  border: 1px solid $night-500;
+}
+
+.border-night-600 {
+  border: 1px solid $night-600;
+}
+
+.border-night-700 {
+  border: 1px solid $night-700;
+}
+.border-night-800 {
+  border: 1px solid $night-800;
+}
+
+.border-night-900 {
+  border: 1px solid $night-900;
+}
+
+.border-night-950 {
+  border: 1px solid $night-950;
+}
+
+// Orange Background
+
+.background-orange-50 {
+  background-color: $orange-50;
+}
+
+.background-orange-100 {
+  background-color: $orange-100;
+}
+
+.background-orange-200 {
+  background-color: $orange-200;
+}
+
+.background-orange-300 {
+  background-color: $orange-300;
+}
+
+.background-orange-400 {
+  background-color: $orange-400;
+}
+
+.background-orange-500 {
+  background-color: $orange-500;
+}
+
+.background-orange-600 {
+  background-color: $orange-600;
+}
+
+.background-orange-700 {
+  background-color: $orange-700;
+}
+
+.background-orange-800 {
+  background-color: $orange-800;
+}
+
+.background-orange-900 {
+  background-color: $orange-900;
+}
+
+.background-orange-950 {
+  background-color: $orange-950;
+}
+
+// Orange Border
+
+.border-orange-50 {
+  border: 1px solid $orange-50;
+}
+
+.border-orange-100 {
+  border: 1px solid $orange-100;
+}
+
+.border-orange-200 {
+  border: 1px solid $orange-200;
+}
+
+.border-orange-300 {
+  border: 1px solid $orange-300;
+}
+
+.border-orange-400 {
+  border: 1px solid $orange-400;
+}
+
+.border-orange-500 {
+  border: 1px solid $orange-500;
+}
+
+.border-orange-600 {
+  border: 1px solid $orange-600;
+}
+
+.border-orange-700 {
+  border: 1px solid $orange-700;
+}
+.border-orange-800 {
+  border: 1px solid $orange-800;
+}
+
+.border-orange-900 {
+  border: 1px solid $orange-900;
+}
+
+.border-orange-950 {
+  border: 1px solid $orange-950;
+}
+
+// Red Background
+
+.background-red-50 {
+  background-color: $red-50;
+}
+
+.background-red-100 {
+  background-color: $red-100;
+}
+
+.background-red-200 {
+  background-color: $red-200;
+}
+
+.background-red-300 {
+  background-color: $red-300;
+}
+
+.background-red-400 {
+  background-color: $red-400;
+}
+
+.background-red-500 {
+  background-color: $red-500;
+}
+
+.background-red-600 {
+  background-color: $red-600;
+}
+
+.background-red-700 {
+  background-color: $red-700;
+}
+
+.background-red-800 {
+  background-color: $red-800;
+}
+
+.background-red-900 {
+  background-color: $red-900;
+}
+
+.background-red-950 {
+  background-color: $red-950;
+}
+
+// Red Border
+
+.border-red-50 {
+  border: 1px solid $red-50;
+}
+
+.border-red-100 {
+  border: 1px solid $red-100;
+}
+
+.border-red-200 {
+  border: 1px solid $red-200;
+}
+
+.border-red-300 {
+  border: 1px solid $red-300;
+}
+
+.border-red-400 {
+  border: 1px solid $red-400;
+}
+
+.border-red-500 {
+  border: 1px solid $red-500;
+}
+
+.border-red-600 {
+  border: 1px solid $red-600;
+}
+
+.border-red-700 {
+  border: 1px solid $red-700;
+}
+.border-red-800 {
+  border: 1px solid $red-800;
+}
+
+.border-red-900 {
+  border: 1px solid $red-900;
+}
+
+.border-red-950 {
+  border: 1px solid $red-950;
+}
+
 
 .color-primary {
   color: $primary
@@ -121,7 +626,7 @@
 }
 
 .color-gray-2 {
-  color: $oc-gray-600;
+  color: $gray-600;
 }
 
 .rb-code {
@@ -149,11 +654,11 @@
   border-color: transparent !important;
   padding: .08rem .4rem 0 !important;
   font-size: .8rem;
-  color: $oc-white !important;
+  color: $white !important;
   &:hover {
     background-color: $secondary !important;
     border-color: transparent !important;
-    color: $oc-white !important;
+    color: $white !important;
   }
 }
 
@@ -162,11 +667,11 @@
   border-color: transparent !important;
   padding: .5rem 1rem !important;
   font-size: 1rem !important;
-  color: $oc-white !important;
+  color: $white !important;
   &:hover {
     background-color: $secondary !important;
     border-color: transparent !important;
-    color: $oc-white !important;
+    color: $white !important;
   }
 }
 
@@ -344,7 +849,7 @@
 }
 
 .mark, mark {
-  background-color: $oc-gray-200 !important;
+  background-color: $gray-200 !important;
   padding: .2em !important;
 }
 

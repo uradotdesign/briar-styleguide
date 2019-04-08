@@ -10,14 +10,15 @@ $font: 'Inter', sans-serif !important;
 
 // ━━━━ General ━━━━
 
-$oc-white:         #ffffff;
-$oc-black:         #000000;
-$oc-sidebar:       #5c666f;
-$oc-sb:            #4F4F4F;
+$white:         #ffffff;
+$black:         #000000;
+$sidebar:       #5c666f;
+$sb:            #4F4F4F;
+$border-radius:    4px;
 
 // Lime
 
-$oc-lime-list: (
+$lime-list: (
       "50": #EEFBDE,
       "100": #D1F0A7,
       "200": #B4E76F,
@@ -31,21 +32,21 @@ $oc-lime-list: (
       "950": #162404
 );
 
-$oc-lime-50: map-get($oc-lime-list, "50");
-$oc-lime-100: map-get($oc-lime-list, "100");
-$oc-lime-200: map-get($oc-lime-list, "200");
-$oc-lime-300: map-get($oc-lime-list, "300");
-$oc-lime-400: map-get($oc-lime-list, "400");
-$oc-lime-500: map-get($oc-lime-list, "500");
-$oc-lime-600: map-get($oc-lime-list, "600");
-$oc-lime-700: map-get($oc-lime-list, "700");
-$oc-lime-800: map-get($oc-lime-list, "800");
-$oc-lime-900: map-get($oc-lime-list, "900");
-$oc-lime-950: map-get($oc-lime-list, "950");
+$lime-50: map-get($lime-list, "50");
+$lime-100: map-get($lime-list, "100");
+$lime-200: map-get($lime-list, "200");
+$lime-300: map-get($lime-list, "300");
+$lime-400: map-get($lime-list, "400");
+$lime-500: map-get($lime-list, "500");
+$lime-600: map-get($lime-list, "600");
+$lime-700: map-get($lime-list, "700");
+$lime-800: map-get($lime-list, "800");
+$lime-900: map-get($lime-list, "900");
+$lime-950: map-get($lime-list, "950");
 
 // Blue
 
-$oc-blue-list: (
+$blue-list: (
       "50": #F6FAFE,
       "100": #E4F0FB,
       "200": #B8D6F4,
@@ -59,21 +60,21 @@ $oc-blue-list: (
       "950": #0A2744
 );
 
-$oc-blue-50: map-get($oc-blue-list, "50");
-$oc-blue-100: map-get($oc-blue-list, "100");
-$oc-blue-200: map-get($oc-blue-list, "200");
-$oc-blue-300: map-get($oc-blue-list, "300");
-$oc-blue-400: map-get($oc-blue-list, "400");
-$oc-blue-500: map-get($oc-blue-list, "500");
-$oc-blue-600: map-get($oc-blue-list, "600");
-$oc-blue-700: map-get($oc-blue-list, "700");
-$oc-blue-800: map-get($oc-blue-list, "800");
-$oc-blue-900: map-get($oc-blue-list, "900");
-$oc-blue-950: map-get($oc-blue-list, "950");
+$blue-50: map-get($blue-list, "50");
+$blue-100: map-get($blue-list, "100");
+$blue-200: map-get($blue-list, "200");
+$blue-300: map-get($blue-list, "300");
+$blue-400: map-get($blue-list, "400");
+$blue-500: map-get($blue-list, "500");
+$blue-600: map-get($blue-list, "600");
+$blue-700: map-get($blue-list, "700");
+$blue-800: map-get($blue-list, "800");
+$blue-900: map-get($blue-list, "900");
+$blue-950: map-get($blue-list, "950");
 
 // Night
 
-$oc-night-list: (
+$night-list: (
       "50": #EBF3FA,
       "100": #D1DAE6,
       "200": #B1BFCF,
@@ -87,21 +88,21 @@ $oc-night-list: (
       "950": #0E171F
 );
 
-$oc-night-50: map-get($oc-night-list, "50");
-$oc-night-100: map-get($oc-night-list, "100");
-$oc-night-200: map-get($oc-night-list, "200");
-$oc-night-300: map-get($oc-night-list, "300");
-$oc-night-400: map-get($oc-night-list, "400");
-$oc-night-500: map-get($oc-night-list, "500");
-$oc-night-600: map-get($oc-night-list, "600");
-$oc-night-700: map-get($oc-night-list, "700");
-$oc-night-800: map-get($oc-night-list, "800");
-$oc-night-900: map-get($oc-night-list, "900");
-$oc-night-950: map-get($oc-night-list, "950");
+$night-50: map-get($night-list, "50");
+$night-100: map-get($night-list, "100");
+$night-200: map-get($night-list, "200");
+$night-300: map-get($night-list, "300");
+$night-400: map-get($night-list, "400");
+$night-500: map-get($night-list, "500");
+$night-600: map-get($night-list, "600");
+$night-700: map-get($night-list, "700");
+$night-800: map-get($night-list, "800");
+$night-900: map-get($night-list, "900");
+$night-950: map-get($night-list, "950");
 
 //  Gray
 
-$oc-gray-list: (
+$gray-list: (
         "50": #FAFAFA,
         "100": #F2F2F2,
         "200": #DFDFDF,
@@ -115,21 +116,21 @@ $oc-gray-list: (
         "950": #1F1F1F
 );
 
-$oc-gray-50: map-get($oc-gray-list, "50");
-$oc-gray-100: map-get($oc-gray-list, "100");
-$oc-gray-200: map-get($oc-gray-list, "200");
-$oc-gray-300: map-get($oc-gray-list, "300");
-$oc-gray-400: map-get($oc-gray-list, "400");
-$oc-gray-500: map-get($oc-gray-list, "500");
-$oc-gray-600: map-get($oc-gray-list, "600");
-$oc-gray-700: map-get($oc-gray-list, "700");
-$oc-gray-800: map-get($oc-gray-list, "800");
-$oc-gray-900: map-get($oc-gray-list, "900");
-$oc-gray-950: map-get($oc-gray-list, "950");
+$gray-50: map-get($gray-list, "50");
+$gray-100: map-get($gray-list, "100");
+$gray-200: map-get($gray-list, "200");
+$gray-300: map-get($gray-list, "300");
+$gray-400: map-get($gray-list, "400");
+$gray-500: map-get($gray-list, "500");
+$gray-600: map-get($gray-list, "600");
+$gray-700: map-get($gray-list, "700");
+$gray-800: map-get($gray-list, "800");
+$gray-900: map-get($gray-list, "900");
+$gray-950: map-get($gray-list, "950");
 
 //  Orange
 
-$oc-orange-list: (
+$orange-list: (
         "50": #FFFAF4,
         "100": #FFF1DE,
         "200": #FED69F,
@@ -143,21 +144,21 @@ $oc-orange-list: (
         "950": #592800
 );
 
-$oc-orange-50: map-get($oc-orange-list, "50");
-$oc-orange-100: map-get($oc-orange-list, "100");
-$oc-orange-200: map-get($oc-orange-list, "200");
-$oc-orange-300: map-get($oc-orange-list, "300");
-$oc-orange-400: map-get($oc-orange-list, "400");
-$oc-orange-500: map-get($oc-orange-list, "500");
-$oc-orange-600: map-get($oc-orange-list, "600");
-$oc-orange-700: map-get($oc-orange-list, "700");
-$oc-orange-800: map-get($oc-orange-list, "800");
-$oc-orange-900: map-get($oc-orange-list, "900");
-$oc-orange-950: map-get($oc-orange-list, "950");
+$orange-50: map-get($orange-list, "50");
+$orange-100: map-get($orange-list, "100");
+$orange-200: map-get($orange-list, "200");
+$orange-300: map-get($orange-list, "300");
+$orange-400: map-get($orange-list, "400");
+$orange-500: map-get($orange-list, "500");
+$orange-600: map-get($orange-list, "600");
+$orange-700: map-get($orange-list, "700");
+$orange-800: map-get($orange-list, "800");
+$orange-900: map-get($orange-list, "900");
+$orange-950: map-get($orange-list, "950");
 
 //  Red
 
-$oc-red-list: (
+$red-list: (
         "50": #FEF6F5,
         "100": #FBE5E1,
         "200": #F2B4A9,
@@ -171,14 +172,14 @@ $oc-red-list: (
         "950": #4B140B
 );
 
-$oc-red-50: map-get($oc-red-list, "50");
-$oc-red-100: map-get($oc-red-list, "100");
-$oc-red-200: map-get($oc-red-list, "200");
-$oc-red-300: map-get($oc-red-list, "300");
-$oc-red-400: map-get($oc-red-list, "400");
-$oc-red-500: map-get($oc-red-list, "500");
-$oc-red-600: map-get($oc-red-list, "600");
-$oc-red-700: map-get($oc-red-list, "700");
-$oc-red-800: map-get($oc-red-list, "800");
-$oc-red-900: map-get($oc-red-list, "900");
-$oc-red-950: map-get($oc-red-list, "950");
+$red-50: map-get($red-list, "50");
+$red-100: map-get($red-list, "100");
+$red-200: map-get($red-list, "200");
+$red-300: map-get($red-list, "300");
+$red-400: map-get($red-list, "400");
+$red-500: map-get($red-list, "500");
+$red-600: map-get($red-list, "600");
+$red-700: map-get($red-list, "700");
+$red-800: map-get($red-list, "800");
+$red-900: map-get($red-list, "900");
+$red-950: map-get($red-list, "950");

@@ -6,7 +6,7 @@
   'state';
 
 body {
-	color: $oc-gray-900;
+	color: $gray-900;
   font-family: $font;
 	font-size: 1rem;
 }
@@ -21,13 +21,13 @@ a:hover {
   }
 
 :root {
-    --sidebar-bg: #{$oc-gray-100};
-    --sidebar-text: #{$oc-gray-800};
-    --border: #{$oc-gray-300};
+    --sidebar-bg: #{$gray-100};
+    --sidebar-text: #{$gray-800};
+    --border: #{$gray-300};
 }
 
 .dark {
-    --sidebar-bg: #{$oc-night-800};
-    --sidebar-text: #{$oc-gray-100};
-    --border: #{$oc-gray-300};
+    --sidebar-bg: #{$night-800};
+    --sidebar-text: #{$gray-100};
+    --border: #{$gray-300};
 }
