@@ -207,6 +207,10 @@ background-color: #DFDFDF !important;
   color: $white;
 }
 
+.f-small {
+  text-transform: lowercase;
+}
+
 
 .colors {
   &:first-child {
@@ -230,7 +234,7 @@ background-color: #DFDFDF !important;
   }
 
   .color-overview {
-
+    transition: .1s linear;
     display: flex;
 
     .variable {
@@ -238,6 +242,7 @@ background-color: #DFDFDF !important;
     }
 
     .hex {
+      transition: .1s linear;
       opacity: 0;
     }
   }
@@ -265,6 +270,7 @@ background-color: #DFDFDF !important;
       margin: 0 -10px 0 0;
       border-top-right-radius: $border-radius;
       border-bottom-right-radius: $border-radius;
+      transition: .1s linear;
     }
 
     > .color-details {
@@ -286,8 +292,4 @@ background-color: #DFDFDF !important;
       opacity: 1;
     }
   }
-}
-
-.f-small {
-  text-transform: lowercase;
 }
