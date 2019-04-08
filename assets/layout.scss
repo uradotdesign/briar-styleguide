@@ -13,7 +13,14 @@
 .navbar-wide-logo {
   padding: 1.2rem 0rem;
   text-align: center;
-  background-color: $white;
+  background-color: $gray-50;
+}
+
+.hero-header {
+  text-align: center;
+  height: 300px;
+  background-color: $night-400;
+  margin-left: -5%;
 }
 
 .sidebar {

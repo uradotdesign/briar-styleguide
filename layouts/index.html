@@ -1,50 +1,60 @@
 {{ define "main" }}
 <div class="row">
-  <div class="col-md-3 col-sm-4 col-xs-4 p-0">
-    <div class="row" style="height: 100%">
-      <div class="col-md-6 col-sm-6 col-xs-6 p-0 display-md sidebar-fill">
-        {{ partial "navbar_side.html" . }}
-      </div>
+    <div class="col-md-2 col-sm-4 col-xs-4 p-0">
+        <div class="row display-md" style="height: 100%">
+            {{ partial "navbar_side.html" . }}
+        </div>
     </div>
-  </div>
-  <div class="col-md-7 col-xs-12 col-sm-12 p-0">
-    <main role="main" class="content-scroll p-5" data-spy="scroll" data-target="#components-nav" data-offset="0">
-      <div class="row">
-        <div class="col-12 p-0">
-          <div class="page-header mb-4">
-            <h3>About</h3>
-            <p class="text-muted">Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices.</p>
-          </div>
-          <p>This guide aims to provide standards, principles and components to design consistent views related to the Briar Project. These pages are a living document and we welcome contributions, feedback and suggestions.</p>
-        </p>
-        <br>
-        <h5>Contact</h5>
-        <div class="row mt-5">
-          <div class="col-md-6 p-0">
-            <div class="bg-box p-5 mb-3">
-              <h6>Briar</h6>
-              <a class="btn btn-lg btn-link p-0" title="Briar Email" href="mailto: contact@briarproject.org" target="_blank">contact@briarproject.org</a></div>
+    <div class="col-md-10 col-xs-12 col-sm-12 p-0">
+        <main role="main" class="content-scroll p-0" data-spy="scroll" data-target="#components-nav" data-offset="0">
+            <div class="row">
+                <div class="col-12 p-0">
+                    <div class="hero-header">
+                        <svg class="mt-5" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="32" r="32" fill="white" />
+                            <path d="M23.4869 13C21.9193 13 20.627 14.2923 20.627 15.8599V19.4954H27.672V15.8599C27.672 14.2923 26.3954 13 24.8278 13H23.4869ZM39.1611 13C37.5935 13 36.3011 14.2923 36.3011 15.8599V35.1696H43.3462V15.8599C43.3462 14.2923 42.0696 13 40.502 13H39.1611ZM20.627 28.8028V48.1124C20.627 49.68 21.9036 50.9724 23.4869 50.9724H24.8278C26.3954 50.9724 27.6877 49.68 27.6877 48.1124V28.8028H20.627ZM36.3004 44.477V48.1124C36.3004 49.68 37.5935 50.9724 39.1603 50.9724H40.5012C42.0688 50.9724 43.3611 49.68 43.3611 48.1124V44.477C43.3619 44.477 36.3004 44.477 36.3004 44.477Z" fill="#435B77" />
+                            <path d="M15.8599 20.6262C14.2923 20.6262 13 21.9029 13 23.4861V24.8271C13 26.3946 14.2766 27.687 15.8599 27.687H35.1696V20.6262H15.8599ZM44.477 20.6262V27.6878H48.1124C49.68 27.6878 50.9724 26.4111 50.9724 24.8279V23.4869C50.9724 21.9037 49.68 20.627 48.1124 20.627H44.477V20.6262ZM15.8599 36.3004C14.2923 36.3004 13 37.5771 13 39.1603V40.5013C13 42.0688 14.2766 43.3612 15.8599 43.3612H19.4954V36.3004H15.8599ZM28.8028 36.3004V43.362H48.1124C49.68 43.362 50.9724 42.0688 50.9724 40.5021V39.1611C50.9724 37.5778 49.68 36.3012 48.1124 36.3012L28.8028 36.3004Z" fill="#435B77" />
+                        </svg>
+                        <h1 class="inverted mt-3">Briar Style Guide</h1>
+                        <h4 class="inverted">Resources, components, and design guidelines behind Briar</h4>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-12 p-0">
-          <div class="page-header mb-4 mt-5">
-            <h5>Identihub</h5>
-            <p class="text-muted">The Briar Project brand assets are included in this Identihub project page.</p>
-          </div>
-          <div class="row mt-5">
-            <div class="col-md-6 p-0">
-              <div class="bg-box p-5 mb-3 text-left">
-                <h6>Styleguide Mirror on Identihub</h6>
-                <p class="m-0"></p>
-                <a class="btn btn-lg btn-link p-0" href="https://demo.identihub.co/briarproject" target="_blank">Project Page</a>
-              </div>
+      </main>
+            <div class="row col-8 p-0 pt-3">
+                <div class="page-header mt-3 mb-4">
+                    <h3>About</h3>
+                    <p class="text-muted">Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices.</p>
+                </div>
+                <p>This guide aims to provide standards, principles and components to design consistent views related to the Briar Project. These pages are a living document and we welcome contributions, feedback and suggestions.</p>
+                <br>
+                <h5 class="pt-3">Contact</h5>
+                </div>
+                <div class="row col-8 p-0 mt-5">
+                    <div class="col-8 p-0">
+                        <div class="bg-box p-5 mb-3">
+                            <h6>Briar</h6>
+                            <a class="btn btn-lg btn-link p-0" title="Briar Email" href="mailto: contact@briarproject.org" target="_blank">contact@briarproject.org</a></div>
+                    </div>
+                </div>
+            <div class="row col-8 p-0 pt-0">
+                <div class="page-header mb-4 mt-5">
+                    <h5>Identihub</h5>
+                    <p class="text-muted">The Briar Project brand assets are included in this Identihub project page.</p>
+                </div>
+                <div class="col-8 p-0 mt-3">
+                    <div class="p-0">
+                        <div class="bg-box p-5 mb-3 text-left">
+                            <h6>Styleguide Mirror on Identihub</h6>
+                            <p class="m-0"></p>
+                            <a class="btn btn-lg btn-link p-0" href="https://demo.identihub.co/briarproject" target="_blank">Project Page</a>
+                        </div>
+                    </div>
+                </div>
+                {{ partial "scrollspy.html" . }}
             </div>
-          </div>
-        </div>
-      </div>
-      {{ partial "scrollspy.html" . }}
-    </main>
-  </div>
+
+    </div>
+</div>
 </div>
 {{ end }}
