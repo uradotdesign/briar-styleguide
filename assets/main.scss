@@ -23,9 +23,11 @@ a:hover {
 :root {
     --sidebar-bg: #{$oc-gray-100};
     --sidebar-text: #{$oc-gray-800};
+    --border: #{$oc-gray-300};
 }
 
 .dark {
     --sidebar-bg: #{$oc-night-800};
     --sidebar-text: #{$oc-gray-100};
+    --border: #{$oc-gray-300};
 }

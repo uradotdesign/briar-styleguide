@@ -11,7 +11,7 @@
 }
 
 .navbar-wide-logo {
-  padding: 1rem 2rem 1.5rem 2rem;
+  padding: 1.2rem 0rem;
   text-align: center;
   background-color: $oc-white;
 }
@@ -39,8 +39,10 @@
   & .list-group-item {
     background-color: transparent !important;
     border: 0;
+    border-bottom: 1px solid !important;
+    border-color: var(--border) !important;
     border-radius: 0 !important;
-    font-size: 1rem;
+    font-size: .875rem;
     font-weight: 600 !important;
     padding: 1rem 1.1rem !important;
   }
@@ -70,16 +72,16 @@
 }
 
 .list-group-item.inner-sidebar {
-  background-color: hsla(0,0%,100%,.3) !important;
-  color: $oc-sb !important;
-  padding: 1rem 2.5rem !important;
+  background-color: rgba(255,255,255,.7) !important;
+  color: var(--sidebar-text) !important;
+  padding: 1rem 0rem 1rem 3.5rem !important;
 }
 
 .sidebar__link__darkGray {
   color: var(--sidebar-text) !important;
 
   &:hover {
-    color: $oc-black !important;
+    color: var(--sidebar-text) !important;
     transition-timing-function: linear;
     -webkit-transition-timing-function: linear;
     -webkit-transition-duration: .3s;
@@ -87,7 +89,7 @@
   }
 
   &:active {
-    color: $oc-black !important;
+    color: var(--sidebar-text) !important;
   }
 }
 
