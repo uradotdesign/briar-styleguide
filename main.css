@@ -17,10 +17,12 @@
 }
 
 .sidebar {
-  min-height: 100vh;
   height: 100%;
-  width: 100%;
+  width: 12.45%;
   background-color: var(--sidebar-bg);
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .sidebar .list-group {
@@ -29,6 +31,10 @@
 
 .sidebar .material-icons {
   letter-spacing: 10px;
+  transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s;
 }
 
 .sidebar .list-group-item {
