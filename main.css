@@ -204,6 +204,10 @@
   color: #ffffff;
 }
 
+.f-small {
+  text-transform: lowercase;
+}
+
 .colors:first-child .color-overview {
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
@@ -219,6 +223,7 @@
 }
 
 .colors .color-overview {
+  transition: .1s linear;
   display: flex;
 }
 
@@ -227,6 +232,7 @@
 }
 
 .colors .color-overview .hex {
+  transition: .1s linear;
   opacity: 0;
 }
 
@@ -256,6 +262,7 @@
   margin: 0 -10px 0 0;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
+  transition: .1s linear;
 }
 
 .colors:hover > .color-details {
@@ -272,10 +279,6 @@
 
 .palette:hover .hex {
   opacity: 1;
-}
-
-.f-small {
-  text-transform: lowercase;
 }
 
 .color {
