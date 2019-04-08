@@ -72,9 +72,13 @@
 }
 
 .list-group-item.inner-sidebar {
-  background-color: rgba(255, 255, 255, 0.7) !important;
+  background-color: var(--sidebar-inner-bg) !important;
   color: var(--sidebar-text) !important;
   padding: 1rem 0rem 1rem 3.5rem !important;
+}
+
+.list-group-item.inner-sidebar:hover {
+  color: var(--hover) !important;
 }
 
 .sidebar__link__darkGray {
@@ -82,7 +86,7 @@
 }
 
 .sidebar__link__darkGray:hover {
-  color: var(--sidebar-text) !important;
+  color: var(--hover) !important;
   transition-timing-function: linear;
   -webkit-transition-timing-function: linear;
   -webkit-transition-duration: .3s;
@@ -95,16 +99,6 @@
 
 .row {
   margin: auto !important;
-}
-
-.active,
-.active:hover {
-  background-color: #DFDFDF !important;
-}
-
-.active *,
-.active:hover * {
-  color: #000000 !important;
 }
 
 .rp-navbar__top {
@@ -1288,13 +1282,17 @@ a:hover {
 
 :root {
   --sidebar-bg: #F2F2F2;
+  --sidebar-inner-bg: #FAFAFA;
   --sidebar-text: #4F4F4F;
+  --hover: #000000;
   --border: #CCCCCC;
 }
 
 .dark {
   --sidebar-bg: #212D3B;
+  --sidebar-inner-bg: #2E3D4F;
   --sidebar-text: #F2F2F2;
+  --hover: #DFDFDF;
   --border: #CCCCCC;
 }
 
