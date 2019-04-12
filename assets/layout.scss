@@ -243,7 +243,7 @@
     }
 
     .hex {
-      transition: .1s linear;
+      transition: .15s linear;
       opacity: 0;
     }
   }
@@ -263,15 +263,15 @@
 
   // color-overview height + color-details height
   .color-priority {
-    height: 100px;
+    height: 128px;
   }
 
   &:hover {
     .color-overview {
-      margin: 0 -10px 0 0;
+      margin: 0 -8px 0 0;
       border-top-right-radius: $border-radius;
       border-bottom-right-radius: $border-radius;
-      transition: .1s linear;
+      transition: .15s linear;
     }
 
     > .color-details {
@@ -287,7 +287,7 @@
 .palette {
   &:hover {
     .color-priority {
-      height: 50px;
+      height: auto;
     }
     .hex {
       opacity: 1;
