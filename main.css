@@ -1233,6 +1233,10 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+.bg {
+  background-color: var(--card-bg);
+}
+
 .bg-grey {
   background-color: #dee2e6 !important;
   color: #000;
@@ -1285,6 +1289,7 @@ a:hover {
   --sidebar-text: #4F4F4F;
   --hover: #000000;
   --border: #CCCCCC;
+  --card-bg: #FAFAFA;
 }
 
 .dark {
@@ -1298,6 +1303,7 @@ a:hover {
   --sidebar-text: #F2F2F2;
   --hover: #DFDFDF;
   --border: #374B61;
+  --card-bg: #212D3B;
 }
 
 /*# sourceMappingURL=main.css.map */
