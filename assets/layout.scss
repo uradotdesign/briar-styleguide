@@ -62,10 +62,6 @@
   }
 }
 
-.sidebar-wrapper {
-  background-color: $gray-300;
-}
-
 #theme_toggle {
   position: fixed;
   bottom: 10px;
@@ -164,7 +160,7 @@
 .list-group-item:hover {
 
 	 & * {
-		 color: $black;
+		 color: var (--hover);
 	 }
 }
 .list-group-item.active {
