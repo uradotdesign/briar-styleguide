@@ -18,8 +18,11 @@
 
 .hero-header {
   text-align: center;
-  height: 300px;
-  background-color: #657D99;
+  height: 320px;
+  background: url("../images/header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #374B61;
   margin-left: -5%;
 }
 
