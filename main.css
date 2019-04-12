@@ -162,7 +162,7 @@
 }
 
 .list-group-item.active {
-  color: #000000 !important;
+  color: var(--hover) !important;
 }
 
 .bg-primary {
@@ -1238,27 +1238,6 @@ input:checked + .slider:before {
   color: #000;
 }
 
-.color_copy {
-  cursor: pointer;
-  -webkit-touch-callout: all;
-  /* iOS Safari */
-  -webkit-user-select: all;
-  /* Safari */
-  -khtml-user-select: all;
-  /* Konqueror HTML */
-  -moz-user-select: all;
-  /* Firefox */
-  -ms-user-select: all;
-  /* Internet Explorer/Edge */
-  user-select: all;
-  /* Chrome and Opera */
-}
-
-.color_copy:hover {
-  transform: scale(1.1);
-  transition-duration: .1s;
-}
-
 @media (min-width: 992px) {
   .display-xs {
     display: none !important;
@@ -1272,7 +1251,6 @@ input:checked + .slider:before {
   .hero-header {
     margin-left: 0%;
     padding: 0rem 1rem;
-    height: 320px;
   }
 }
 
