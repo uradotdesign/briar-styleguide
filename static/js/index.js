@@ -3,12 +3,12 @@
 //     $('.list-group-item a').each(function(){
 //         var $this = $(this);
 // 				var route = $this[0].href.split("/").pop();
-//
+
 // 				var location = current.split("/").indexOf(route);
 // 				console.log(current);
 // 				console.log(route);
 // 				console.log(location);
-//
+
 // 				if(location >= 0) {
 // 					$('.list-group-item a').addClass('active');
 // 				}
@@ -33,14 +33,14 @@ $(document).ready(function () {
 });
 
 // $(function() {
-	// var listItems = $('.rb-main-sidebar');
-	// $.each(listItems, function (key, litem) {
-	// 		var aElement = $(this).children(litem)[0];
-	// 		console.log(aElement.href, document.URL.split('#')[0].slice(0, -1));
-	// 		if(aElement.href == document.URL.split('#')[0].slice(0, -1)) {
-	// 				$(litem).addClass('active');
-	// 		}
-	// });
+// 	var listItems = $('.rb-main-sidebar');
+// 	$.each(listItems, function (key, litem) {
+// 			var aElement = $(this).children(litem)[0];
+// 			console.log(aElement.href, document.URL.split('#')[0].slice(0, -1));
+// 			if(aElement.href == document.URL.split('#')[0].slice(0, -1)) {
+// 					$(litem).addClass('active');
+// 			}
+// 	});
 // })
 
 $('.rb-sidebar').on('click',function() {
@@ -56,19 +56,39 @@ $(".snippets-buttons").click(function() {
   $(this).closest("div").find(".code-snippet-2").toggle();
 });
 
-$(function() {
-   $('.color_copy').click(function() {
-     $(this).focus();
-     $(this).select();
-     document.execCommand('copy');
-   });
-});
+// $(document).ready(function(){
+//   var button = $('.theme_toggle');
+//   var container = $('body');
 
-$(document).ready(function(){
-  var button = $('.theme_toggle');
-  var container = $('body');
+//   button.click(function() {
+//     container.toggleClass('dark');
+//   });
+// });
 
-  button.click(function() {
-    container.toggleClass('dark');
-  });
+let toggle = document.querySelector('.toggle-theme');
+if (localStorage.getItem('dark')) {
+  document.body.classList.add('dark');
+}
+toggle.addEventListener('change', function(e) {
+  e.preventDefault();
+  if (document.body.classList.contains('dark')) {
+    document.body.classList.remove('dark');
+    localStorage.removeItem('dark');
+  } else {
+    document.body.classList.add('dark');
+    localStorage.setItem('dark', true);
+  }
 });
+var checkbox = document.getElementById("switch");
+function load(){    
+    var checked = JSON.parse(localStorage.getItem('switch'));
+    document.getElementById("switch").checked = checked;
+}
+var checked = JSON.parse(localStorage.getItem('switch'));
+  if (checked == true) {
+    document.getElementById("switch").checked = true;
+}
+function save(){
+    var checkbox = document.getElementById('switch');
+    localStorage.setItem('switch', checkbox.checked);
+}

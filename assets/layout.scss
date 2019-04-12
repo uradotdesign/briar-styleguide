@@ -164,7 +164,7 @@
 	 }
 }
 .list-group-item.active {
-	color: $black !important;
+	color: var(--hover) !important;
 }
 
 .bg {
