@@ -11,18 +11,22 @@
 }
 
 .navbar-wide-logo {
-  padding: 1.2rem 0rem;
+  padding: 2rem 0rem;
   text-align: center;
-  background-color: $gray-50;
+  background-color: var (--sidebar-bg);
+  background: var(--logo);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
 }
 
 .hero-header {
   text-align: center;
   height: 320px;
   background: url("../images/header.svg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
-  background-color: $night-600;
+  background-color: var(--header-bg);
   margin-left: -5%;
 }
 

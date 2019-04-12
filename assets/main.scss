@@ -6,9 +6,10 @@
   'state';
 
 body {
-	color: $gray-900;
+	color: var(--text) !important;
   font-family: $font;
 	font-size: 1rem;
+  background-color: var(--body) !important;
 }
 
 a {
@@ -21,18 +22,25 @@ a:hover {
   }
 
 :root {
+    --body: #{$white};
+    --text: #{$gray-900};
+    --logo: url("../images/wide-logo.png");
+    --header-bg: #{$night-400};
     --sidebar-bg: #{$gray-100};
     --sidebar-inner-bg: #{$gray-50};
     --sidebar-text: #{$gray-800};
     --hover: #{$black};
     --border: #{$gray-300};
-
 }
 
 .dark {
+    --body: #{$night-900};
+    --text: #{$white};
+    --logo: url("../images/logo-text-white.png");
+    --header-bg: #{$night-600};
     --sidebar-bg: #{$night-800};
     --sidebar-inner-bg: #{$night-700};
     --sidebar-text: #{$gray-100};
     --hover: #{$gray-200};
-    --border: #{$gray-300};
+    --border: #{$night-600};
 }
