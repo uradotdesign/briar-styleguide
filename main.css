@@ -62,10 +62,6 @@
   padding: 1rem 1.1rem !important;
 }
 
-.sidebar-wrapper {
-  background-color: #CCCCCC;
-}
-
 #theme_toggle {
   position: fixed;
   bottom: 10px;
@@ -162,7 +158,7 @@
 
 .list-group-item:focus *,
 .list-group-item:hover * {
-  color: #000000;
+  color: var --hover;
 }
 
 .list-group-item.active {
