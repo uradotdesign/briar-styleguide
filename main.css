@@ -13,7 +13,7 @@
 .navbar-wide-logo {
   padding: 2rem 0rem;
   text-align: center;
-  background-color: var --sidebar-bg;
+  background-color: var(--logo-bg) !important;
   background: var(--logo);
   background-repeat: no-repeat;
   background-position: center;
@@ -1300,6 +1300,7 @@ a:hover {
   --body: #ffffff;
   --text: #2E2E2E;
   --logo: url("../images/wide-logo.png");
+  --logo-bg: #ffffff;
   --header-bg: #657D99;
   --sidebar-bg: #F2F2F2;
   --sidebar-inner-bg: #FAFAFA;
@@ -1312,6 +1313,7 @@ a:hover {
   --body: #15212D;
   --text: #ffffff;
   --logo: url("../images/logo-text-white.png");
+  --logo-bg: #15212D;
   --header-bg: #374B61;
   --sidebar-bg: #212D3B;
   --sidebar-inner-bg: #2E3D4F;
