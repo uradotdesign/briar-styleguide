@@ -32,6 +32,7 @@ a:hover {
     --sidebar-text: #{$gray-800};
     --hover: #{$black};
     --border: #{$gray-300};
+    --card-bg: #{$gray-50};
 }
 
 .dark {
@@ -45,4 +46,5 @@ a:hover {
     --sidebar-text: #{$gray-100};
     --hover: #{$gray-200};
     --border: #{$night-600};
+    --card-bg: #{$night-800};
 }
