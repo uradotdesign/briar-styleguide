@@ -25,6 +25,7 @@ a:hover {
     --body: #{$white};
     --text: #{$gray-900};
     --logo: url("../images/wide-logo.png");
+    --logo-bg: #{$white};
     --header-bg: #{$night-400};
     --sidebar-bg: #{$gray-100};
     --sidebar-inner-bg: #{$gray-50};
@@ -37,6 +38,7 @@ a:hover {
     --body: #{$night-900};
     --text: #{$white};
     --logo: url("../images/logo-text-white.png");
+    --logo-bg: #{$night-900};
     --header-bg: #{$night-600};
     --sidebar-bg: #{$night-800};
     --sidebar-inner-bg: #{$night-700};

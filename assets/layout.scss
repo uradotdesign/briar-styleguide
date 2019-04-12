@@ -13,7 +13,7 @@
 .navbar-wide-logo {
   padding: 2rem 0rem;
   text-align: center;
-  background-color: var (--sidebar-bg);
+  background-color: var(--logo-bg) !important;
   background: var(--logo);
   background-repeat: no-repeat;
   background-position: center;
