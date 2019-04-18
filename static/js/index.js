@@ -56,15 +56,6 @@ $(".snippets-buttons").click(function() {
   $(this).closest("div").find(".code-snippet-2").toggle();
 });
 
-// $(document).ready(function(){
-//   var button = $('.theme_toggle');
-//   var container = $('body');
-
-//   button.click(function() {
-//     container.toggleClass('dark');
-//   });
-// });
-
 let toggle = document.querySelector('.toggle-theme');
 if (localStorage.getItem('dark')) {
   document.body.classList.add('dark');
@@ -79,16 +70,16 @@ toggle.addEventListener('change', function(e) {
     localStorage.setItem('dark', true);
   }
 });
-var checkbox = document.getElementById("switch");
+var checkbox = document.getElementById("switch_theme");
 function load(){    
-    var checked = JSON.parse(localStorage.getItem('switch'));
-    document.getElementById("switch").checked = checked;
+    var checked = JSON.parse(localStorage.getItem('switch_theme'));
+    document.getElementById("switch_theme").checked = checked;
 }
-var checked = JSON.parse(localStorage.getItem('switch'));
+var checked = JSON.parse(localStorage.getItem('switch_theme'));
   if (checked == true) {
-    document.getElementById("switch").checked = true;
+    document.getElementById("switch_theme").checked = true;
 }
 function save(){
-    var checkbox = document.getElementById('switch');
-    localStorage.setItem('switch', checkbox.checked);
+    var checkbox = document.getElementById('switch_theme');
+    localStorage.setItem('switch_theme', checkbox.checked);
 }

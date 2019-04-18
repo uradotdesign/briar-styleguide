@@ -59,9 +59,10 @@
 }
 
 #theme_toggle {
-  position: fixed;
-  bottom: 10px;
-  left: 5px;
+padding-top: 10px;
+position: fixed;
+right: 15px;
+z-index: 999;
 }
 
 .theme_toggle {
@@ -108,7 +109,7 @@
 }
 
 .rp-navbar__top {
-  background-color: $primary;
+  background-color: var(--navbar-bg);
 }
 
 .rb-contain {
