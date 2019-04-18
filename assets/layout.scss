@@ -27,20 +27,16 @@
   background-repeat: repeat;
   background-position: center;
   background-color: var(--header-bg);
-  margin-left: -5%;
 }
 
 .sidebar {
   height: 100%;
-  width: 12.45%;
+  width: 16.66666667%;
   background-color: var(--sidebar-bg);
   position: fixed;
   top: 0;
   left: 0;
-
-  & .list-group {
-    position: fixed;
-  }
+  overflow-y: auto;
 
   & .material-icons {
     letter-spacing: 10px;
@@ -150,10 +146,6 @@
   .hidden-sm {
     display: none !important;
   }
-}
-
-.sidebar-fill {
-  width: 12.45%;
 }
 
 .list-group-item:focus,
