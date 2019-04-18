@@ -27,20 +27,16 @@
   background-repeat: repeat;
   background-position: center;
   background-color: var(--header-bg);
-  margin-left: -5%;
 }
 
 .sidebar {
   height: 100%;
-  width: 12.45%;
+  width: 16.66666667%;
   background-color: var(--sidebar-bg);
   position: fixed;
   top: 0;
   left: 0;
-}
-
-.sidebar .list-group {
-  position: fixed;
+  overflow-y: auto;
 }
 
 .sidebar .material-icons {
@@ -63,9 +59,10 @@
 }
 
 #theme_toggle {
+  padding-top: 10px;
   position: fixed;
-  bottom: 10px;
-  left: 5px;
+  right: 15px;
+  z-index: 999;
 }
 
 .theme_toggle {
@@ -112,7 +109,7 @@
 }
 
 .rp-navbar__top {
-  background-color: #74B816;
+  background-color: var(--navbar-bg);
 }
 
 .rb-contain {
@@ -150,10 +147,6 @@
   .hidden-sm {
     display: none !important;
   }
-}
-
-.sidebar-fill {
-  width: 12.45%;
 }
 
 .list-group-item:focus *,
@@ -1287,6 +1280,7 @@ a:hover {
   --sidebar-bg: #F2F2F2;
   --sidebar-inner-bg: #FAFAFA;
   --sidebar-text: #4F4F4F;
+  --navbar-bg: #74B816;
   --hover: #000000;
   --border: #CCCCCC;
   --card-bg: #FAFAFA;
@@ -1301,6 +1295,7 @@ a:hover {
   --sidebar-bg: #212D3B;
   --sidebar-inner-bg: #2E3D4F;
   --sidebar-text: #F2F2F2;
+  --navbar-bg: #212D3B;
   --hover: #DFDFDF;
   --border: #374B61;
   --card-bg: #212D3B;

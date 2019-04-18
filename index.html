@@ -55,12 +55,18 @@
     
 <div class="row">
     <div class="col-md-2 col-sm-4 col-xs-4 p-0 display-md">
-        <div class="row display-md" style="height: 100%">
-            <div class="sidebar">
+            <div id="theme_toggle">
+      <label class="switch">
+      <input id="switch_theme" class="toggle-theme" onclick="save();" type="checkbox">
+      <span class="slider round"></span>
+      </label>
+</div>
 
-    <ul id="sidebar-left" class="col-sm-16 col-xs-12 p-0 list-group pt-0 sidebar-fill">
+<div class="sidebar">
 
-      <a class="navbar-wide-logo" href="/"></a>
+<a href="/"><div class="navbar-wide-logo"></div></a>
+
+    <ul class="col-sm-16 col-xs-12 p-0 list-group pt-0 sidebar-fill">
 
           <a href="/getting-started/" class="sidebar__link__darkGray">
               <li class="list-group-item rb-main-sidebar"><i class="material-icons">navigation</i> Getting Started</li>
@@ -87,16 +93,9 @@
               
           </a>
     </ul>
-    <div id="theme_toggle">
-      <label class="switch">
-      <input id="switch" class="toggle-theme" onclick="save();" type="checkbox">
-      <span class="slider round"></span>
-      </label>
-      <span>Theme</span>
-    </div>
   </div>
 
-        </div>
+
     </div>
     <div class="col-md-10 col-xs-12 col-sm-12 p-0">
         <main role="main" class="content-scroll p-0" data-spy="scroll" data-target="#components-nav" data-offset="0">
