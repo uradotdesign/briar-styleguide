@@ -1158,12 +1158,29 @@
   text-align: center !important;
 }
 
-.code-snippet {
+.code-snippet, .code-snippet-2 {
   display: none;
 }
 
-.code-snippet-2 {
+.arrow_box {
+  position: relative;
+  background: var(--snippet-bg);
   display: none;
+}
+
+.arrow_box:before {
+  bottom: 100%;
+  left: 10%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 0, 0, 0);
+  border-bottom-color: var(--snippet-bg);
+  border-width: 12px;
+  margin-left: -12px;
 }
 
 .switch {
@@ -1280,6 +1297,7 @@ a:hover {
   --sidebar-inner-bg: #FAFAFA;
   --sidebar-text: #4F4F4F;
   --navbar-bg: #74B816;
+  --snippet-bg: #DFDFDF;
   --hover: #000000;
   --border: #CCCCCC;
   --card-bg: #FAFAFA;
@@ -1295,6 +1313,7 @@ a:hover {
   --sidebar-inner-bg: #2E3D4F;
   --sidebar-text: #F2F2F2;
   --navbar-bg: #212D3B;
+  --snippet-bg: #DFDFDF;
   --hover: #DFDFDF;
   --border: #374B61;
   --card-bg: #212D3B;
