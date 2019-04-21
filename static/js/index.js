@@ -52,10 +52,12 @@ $('.rb-sidebar').on('click',function() {
 
 $(".snippets").click(function() {
   $(this).closest("div").next(".row").find(".code-snippet").toggle();
+  $(this).closest("div").next(".row").find(".arrow_box").toggle();
 });
 
 $(".snippets-buttons").click(function() {
   $(this).closest("div").find(".code-snippet-2").toggle();
+  $(this).closest("div").next(".row").find(".arrow_box").toggle();
 });
 
 // Dark Theme Toggle
