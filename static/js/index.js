@@ -23,9 +23,9 @@ $(document).ready(function () {
       if(aElement.href == document.URL.split('#')[0]) {
           $(litem).addClass('active');
       }
-	$("#sidebar-left a li").click(function() {
+	$(".sidebar a li").click(function() {
   // Reset them
-  $("#sidebar-left a li").removeClass("active");
+  $(".sidebar a li").removeClass("active");
   // Add to the clicked one only
   $(this).addClass("active");
 });
@@ -48,6 +48,8 @@ $('.rb-sidebar').on('click',function() {
     $(this).addClass('active');
 });
 
+// Code Snippets Toggle
+
 $(".snippets").click(function() {
   $(this).closest("div").next(".row").find(".code-snippet").toggle();
 });
@@ -55,6 +57,8 @@ $(".snippets").click(function() {
 $(".snippets-buttons").click(function() {
   $(this).closest("div").find(".code-snippet-2").toggle();
 });
+
+// Dark Theme Toggle
 
 let toggle = document.querySelector('.toggle-theme');
 if (localStorage.getItem('dark')) {
@@ -82,4 +86,21 @@ var checked = JSON.parse(localStorage.getItem('switch_theme'));
 function save(){
     var checkbox = document.getElementById('switch_theme');
     localStorage.setItem('switch_theme', checkbox.checked);
+}
+
+// Navbar Theme Toggle
+
+  function dark(){
+  if (document.body.classList.contains('dark')) {
+    document.body.classList.remove('dark');
+    localStorage.removeItem('dark');
+    localStorage.setItem('switch_theme', false);
+    document.getElementById("switch_theme").checked = false;
+  }
+   else {
+    document.body.classList.add('dark');
+    localStorage.setItem('dark', true);
+    localStorage.setItem('switch_theme', true);
+    document.getElementById("switch_theme").checked = true;
+  }
 }
