@@ -23,7 +23,7 @@
 .hero-header {
   text-align: center;
   height: 320px;
-  background: url("../images/header.svg");
+  background: url("../images/app.svg");
   background-repeat: repeat;
   background-position: center;
   background-color: var(--header-bg);
