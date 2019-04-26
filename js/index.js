@@ -57,7 +57,7 @@ $(".snippets").click(function() {
 
 $(".snippets-buttons").click(function() {
   $(this).closest("div").find(".code-snippet-2").toggle();
-  $(this).closest("div").next(".row").find(".arrow_box").toggle();
+  $(this).closest("div").closest(".row").find(".arrow_box").toggle();
 });
 
 // Dark Theme Toggle
@@ -77,7 +77,7 @@ toggle.addEventListener('change', function(e) {
   }
 });
 var checkbox = document.getElementById("switch_theme");
-function load(){    
+function load(){
     var checked = JSON.parse(localStorage.getItem('switch_theme'));
     document.getElementById("switch_theme").checked = checked;
 }
