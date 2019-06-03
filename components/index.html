@@ -48,7 +48,7 @@
           <a class="nav-link" href="/writing/"><i class="material-icons">text_format</i> Writing</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" onclick="dark();" href="#"><i class="material-icons">brightness_2</i> Switch Theme</a>
+          <a class="nav-link" id="themer2" onclick="dark();" href="#"><i class="material-icons">brightness_2</i> Dark Theme</a>
         </li>
       </ul>
     </div>
@@ -59,16 +59,9 @@
     <div class="col-md-3 hidden-sm p-0">
         <div class="row" style="height: 100%">
             <div class="col-md-6 col-sm-16 col-xs-12 p-0">
-                <div id="theme_toggle">
-      <label class="switch">
-      <input id="switch_theme" class="toggle-theme" onclick="save();" type="checkbox">
-      <span class="slider round"></span>
-      </label>
-</div>
-
-<div class="sidebar">
+                <div class="sidebar">
 <a href="/"><div class="navbar-wide-logo"></div></a>
-    <ul class="col-sm-16 col-xs-12 p-0 list-group pt-0 sidebar-fill">
+    <ul class="col-sm-16 col-xs-12 p-0 list-group pt-0">
 
           <a href="/getting-started/" class="sidebar__link__darkGray">
               <li class="list-group-item rb-main-sidebar"><i class="material-icons">navigation</i> Getting Started</li>
@@ -143,9 +136,12 @@
               <li class="list-group-item rb-main-sidebar"><i class="material-icons">text_format</i> Writing</li>
               
           </a>
+
+          <a class="sidebar__link__darkGray">
+              <li class="list-group-item rb-main-sidebar" id="themer" onclick="dark();"><i class="material-icons">brightness_2</i> Dark Theme</li>
+          </a>
     </ul>
   </div>
-
 
             </div>
         </div>

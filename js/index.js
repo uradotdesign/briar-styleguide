@@ -1,47 +1,10 @@
-// $(function(){
-//     var current = location.href;
-//     $('.list-group-item a').each(function(){
-//         var $this = $(this);
-// 				var route = $this[0].href.split("/").pop();
+// Active Class for Sidebar
 
-// 				var location = current.split("/").indexOf(route);
-// 				console.log(current);
-// 				console.log(route);
-// 				console.log(location);
-
-// 				if(location >= 0) {
-// 					$('.list-group-item a').addClass('active');
-// 				}
-//     })
-// });
-
-$(document).ready(function () {
-  var listItems = $('.sidebar__link__darkGray');
-  $.each(listItems, function (key, litem) {
-      var aElement = $(litem)[0];
-
-      if(aElement.href == document.URL.split('#')[0]) {
-          $(litem).addClass('active');
-      }
-	$(".sidebar a li").click(function() {
-  // Reset them
-  $(".sidebar a li").removeClass("active");
-  // Add to the clicked one only
-  $(this).addClass("active");
+$(function() {
+  if ((location.pathname.split("/")[1]) !== "") {
+  $('ul a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+  }
 });
-  });
-});
-
-// $(function() {
-// 	var listItems = $('.rb-main-sidebar');
-// 	$.each(listItems, function (key, litem) {
-// 			var aElement = $(this).children(litem)[0];
-// 			console.log(aElement.href, document.URL.split('#')[0].slice(0, -1));
-// 			if(aElement.href == document.URL.split('#')[0].slice(0, -1)) {
-// 					$(litem).addClass('active');
-// 			}
-// 	});
-// })
 
 $('.rb-sidebar').on('click',function() {
     $('.rb-sidebar.active').removeClass('active');
@@ -60,49 +23,25 @@ $(".snippets-buttons").click(function() {
   $(this).closest("div").closest(".row").find(".arrow_box").toggle();
 });
 
-// Dark Theme Toggle
+// Theme Toggle
 
-let toggle = document.querySelector('.toggle-theme');
 if (localStorage.getItem('dark')) {
   document.body.classList.add('dark');
-}
-toggle.addEventListener('change', function(e) {
-  e.preventDefault();
-  if (document.body.classList.contains('dark')) {
-    document.body.classList.remove('dark');
-    localStorage.removeItem('dark');
-  } else {
-    document.body.classList.add('dark');
-    localStorage.setItem('dark', true);
-  }
-});
-var checkbox = document.getElementById("switch_theme");
-function load(){
-    var checked = JSON.parse(localStorage.getItem('switch_theme'));
-    document.getElementById("switch_theme").checked = checked;
-}
-var checked = JSON.parse(localStorage.getItem('switch_theme'));
-  if (checked == true) {
-    document.getElementById("switch_theme").checked = true;
-}
-function save(){
-    var checkbox = document.getElementById('switch_theme');
-    localStorage.setItem('switch_theme', checkbox.checked);
+  document.getElementById("themer").innerHTML = '<i class="material-icons">brightness_7</i> Light Theme';
+  document.getElementById("themer2").innerHTML = '<i class="material-icons">brightness_7</i> Light Theme';
 }
 
-// Navbar Theme Toggle
-
-  function dark(){
-  if (document.body.classList.contains('dark')) {
-    document.body.classList.remove('dark');
-    localStorage.removeItem('dark');
-    localStorage.setItem('switch_theme', false);
-    document.getElementById("switch_theme").checked = false;
-  }
-   else {
-    document.body.classList.add('dark');
-    localStorage.setItem('dark', true);
-    localStorage.setItem('switch_theme', true);
-    document.getElementById("switch_theme").checked = true;
-  }
+function dark(){
+if (document.body.classList.contains('dark')) {
+  document.body.classList.remove('dark');
+  localStorage.removeItem('dark');
+  document.getElementById("themer").innerHTML = '<i class="material-icons">brightness_2</i> Dark Theme';
+  document.getElementById("themer2").innerHTML = '<i class="material-icons">brightness_2</i> Dark Theme';
+}
+ else {
+  document.body.classList.add('dark');
+  localStorage.setItem('dark', true);
+  document.getElementById("themer").innerHTML = '<i class="material-icons">brightness_7</i> Light Theme';
+  document.getElementById("themer2").innerHTML = '<i class="material-icons">brightness_7</i> Light Theme';
+}
 }
