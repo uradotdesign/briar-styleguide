@@ -35,6 +35,9 @@ a:hover {
     --hover: #{$black};
     --border: #{$gray-300};
     --card-bg: #{$gray-50};
+    --bg-hover: #{$gray-200};
+    --navtop-color: #{$white};
+    --navtop-hover: #{&black};
 }
 
 .dark {
@@ -51,4 +54,7 @@ a:hover {
     --hover: #{$gray-200};
     --border: #{$night-600};
     --card-bg: #{$night-800};
+    --bg-hover: #{$night-900};
+    --navtop-color: #{$white};
+    --navtop-hover: #{$gray-600};
 }

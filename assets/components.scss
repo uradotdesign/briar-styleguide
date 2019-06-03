@@ -638,6 +638,60 @@
   font-weight: bold;
 }
 
+.font-20 {
+  font-size: 20px !important;
+}
+
+.antiscroll {
+  overflow: scroll !important;
+  white-space: nowrap;
+}
+
+div[data-tabs] {
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+div[data-tabs] input {
+    display: none;
+}
+
+div[data-tabs] input:checked + label {
+    border-top-color: $lime-500;
+    border-bottom-color: #f9f9fa;
+    color: $lime-500;
+}
+div[data-tabs] input + label {
+    border: 1px solid #ededf0;
+        border-top-color: rgb(237, 237, 240);
+        border-top-width: 1px;
+        border-bottom-color: rgb(237, 237, 240);
+    border-top-width: 2px;
+    padding: .5rem;
+    z-index: 1;
+    cursor: pointer;
+}
+
+div[data-tabs] input:checked + label + div[data-tab] {
+    display: grid;
+}
+div[data-tabs] input + label + div[data-tab] {
+    display: none;
+}
+div[data-tabs] div[data-tab] {
+    grid-column-end: span 6;
+    padding: .5rem;
+    border: 1px solid #ededf0;
+    margin-top: -1px;
+}
+
+.grid-2 {
+    display: grid;
+    grid: auto-flow/repeat(2, 1fr);
+    column-gap: 12px;
+}
+
 .btn-primary {
   background-color: $primary !important;
   border-color: transparent !important;
@@ -862,6 +916,10 @@
   &:hover {
     color: orange !important;
   }
+}
+
+img {
+  max-width: 100%;
 }
 
 .global {

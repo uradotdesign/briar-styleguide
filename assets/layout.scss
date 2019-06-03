@@ -3,15 +3,15 @@
 }
 
 .nav-link {
-  color: $white !important;
+  color: var(--navtop-color) !important;
 
   &:hover {
-    color: $black !important;
+    color: var(--navtop-hover) !important;
   }
 }
 
 .navbar-wide-logo {
-  padding: 2rem 0rem;
+  padding: 2.5rem 0rem;
   text-align: center;
   background-color: var(--logo-bg) !important;
   background: var(--logo);
@@ -93,15 +93,21 @@ z-index: 999;
 
   &:hover {
     color: var(--hover) !important;
+    background-color: var(--bg-hover);
     transition-timing-function: linear;
     -webkit-transition-timing-function: linear;
     -webkit-transition-duration: .3s;
     transition-duration: .3s;
   }
 
-  &:active {
-    color: var(--sidebar-text) !important;
+  &.active {
+    color: var(--black) !important;
+    background-color: var(--bg-hover) !important;
   }
+}
+
+#themer {
+    cursor: pointer;
 }
 
 .row {
@@ -274,9 +280,6 @@ z-index: 999;
       display: flex;
     }
 
-    > .color-overview .variable {
-      font-weight: bold;
-    }
   }
 }
 
