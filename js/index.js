@@ -27,21 +27,21 @@ $(".snippets-buttons").click(function() {
 
 if (localStorage.getItem('dark')) {
   document.body.classList.add('dark');
-  document.getElementById("themer").innerHTML = '<i class="material-icons">brightness_7</i> Light Theme';
-  document.getElementById("themer2").innerHTML = '<i class="material-icons">brightness_7</i> Light Theme';
+  document.getElementById("themer").innerHTML = '<i class="material-icons">brightness_7</i> Switch to Light Theme';
+  document.getElementById("themer2").innerHTML = '<i class="material-icons">brightness_7</i> Switch to Light Theme';
 }
 
 function dark(){
 if (document.body.classList.contains('dark')) {
   document.body.classList.remove('dark');
   localStorage.removeItem('dark');
-  document.getElementById("themer").innerHTML = '<i class="material-icons">brightness_2</i> Dark Theme';
-  document.getElementById("themer2").innerHTML = '<i class="material-icons">brightness_2</i> Dark Theme';
+  document.getElementById("themer").innerHTML = '<i class="material-icons">brightness_2</i> Switch to Dark Theme';
+  document.getElementById("themer2").innerHTML = '<i class="material-icons">brightness_2</i> Switch to Dark Theme';
 }
  else {
   document.body.classList.add('dark');
   localStorage.setItem('dark', true);
-  document.getElementById("themer").innerHTML = '<i class="material-icons">brightness_7</i> Light Theme';
-  document.getElementById("themer2").innerHTML = '<i class="material-icons">brightness_7</i> Light Theme';
+  document.getElementById("themer").innerHTML = '<i class="material-icons">brightness_7</i> Switch to Light Theme';
+  document.getElementById("themer2").innerHTML = '<i class="material-icons">brightness_7</i> Switch to Light Theme';
 }
 }

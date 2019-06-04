@@ -48,7 +48,7 @@
           <a class="nav-link" href="/writing/"><i class="material-icons">text_format</i> Writing</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="themer2" onclick="dark();" href="#"><i class="material-icons">brightness_2</i> Dark Theme</a>
+          <a class="nav-link" id="themer2" onclick="dark();" href="#"><i class="material-icons">brightness_2</i> Switch to Dark Theme</a>
         </li>
       </ul>
     </div>
@@ -123,8 +123,8 @@
               
           </a>
 
-          <a class="sidebar__link__darkGray">
-              <li class="list-group-item rb-main-sidebar" id="themer" onclick="dark();"><i class="material-icons">brightness_2</i> Dark Theme</li>
+          <a class="sidebar__link__darkGray stick-bottom">
+              <li class="list-group-item rb-main-sidebar" id="themer" onclick="dark();"><i class="material-icons">brightness_2</i> Switch to Dark Theme</li>
           </a>
     </ul>
   </div>
@@ -1654,14 +1654,14 @@
   <form class="pt-3 pb-3 col-md-8">
     <div data-tabs="">
 
-      <input type="radio" name="ptabs" id="platform-desktop" checked="checked">
-      <label for="platform-desktop">Desktop</label>
+      <input type="radio" name="ptabs" id="platform-web" checked="checked">
+      <label for="platform-web">Web</label>
       <div data-tab="" class="grid-2">
 
         <p><img src="/images/typography/typography-inter.svg" alt="Inter UI font"></p>
 
         <div>
-          <p><a href="https://rsms.me/inter/" target="_blank" rel="noopener">Inter UI</a> is the typeface used in Briar desktop products.</p>
+          <p><a href="https://rsms.me/inter/" target="_blank" rel="noopener">Inter UI</a> is the typeface used in Briar web interfaces.</p>
         </div>
 
       </div>
@@ -1691,6 +1691,37 @@
 
     <h3 class="pt-5">Font sizes</h3>
     <p class="text-muted">The font scale consists of 6 different font sizes.</p>
+
+    <form class="pt-3 pb-3 col-md-8">
+      <div data-tabs="">
+
+        <input type="radio" name="ptabs" id="font-web" checked="checked">
+        <label for="font-web">Web</label>
+        <div data-tab="" class="grid-2">
+
+          <p><img src="/images/typography/typography-inter.svg" alt="Inter UI font"></p>
+
+          <div>
+            <p><a href="https://rsms.me/inter/" target="_blank" rel="noopener">Inter UI</a> is the typeface used in Briar web interfaces.</p>
+          </div>
+
+        </div>
+
+        <input type="radio" name="ptabs" id="font-android">
+        <label for="font-android">Android</label>
+        <div data-tab="" class="grid-2">
+
+          <p><img src="../images/typography/typography-roboto.svg" alt="Roboto font"></p>
+
+          <div>
+            <p><a href="https://fonts.google.com/specimen/Roboto" target="_blank" rel="noopener">Roboto</a> is the typeface used in Briar Android products.</p>
+          </div>
+
+        </div>
+
+
+      </div>
+    </form>
 
     <div class="col-md-8 border-gray-200 p-4 antiscroll">
 
@@ -1893,9 +1924,7 @@
         <p class="text-black pt-3 align-horizontally flex-space-between">
             <span class="text-left color-gray-2 rb-isBold">Default</span>
             <span class="text-right color-primary rb-isBold" style="float: right;">
-              <a href="/images/briar_horizontal_color.png" class="button btn btn-sm btn-outline-medium" download><i class="fas fa-download"></i> PNG</a>
-            </span>
-            <span class="text-right color-primary rb-isBold" style="float: right;">
+              <a href="/images/briar_horizontal_color.png" class="button btn btn-sm btn-outline-medium mr-1" download><i class="fas fa-download"></i> PNG</a>
               <a href="/images/briar_horizontal_color.svg" class="button btn btn-sm btn-outline-medium" download><i class="fas fa-download"></i> SVG</a>
             </span>
         </p>
@@ -1908,9 +1937,7 @@
         <p class="text-black pt-3 align-horizontally flex-space-between">
             <span class="text-left color-gray-2 rb-isBold">Black</span>
             <span class="text-right color-primary rb-isBold" style="float: right;">
-              <a href="/images/briar_horizontal_black.png" class="button btn btn-sm btn-outline-medium" download><i class="fas fa-download"></i> PNG</a>
-            </span>
-            <span class="text-right color-primary rb-isBold" style="float: right;">
+              <a href="/images/briar_horizontal_black.png" class="button btn btn-sm btn-outline-medium mr-1" download><i class="fas fa-download"></i> PNG</a>
               <a href="/images/briar_horizontal_black.svg" class="button btn btn-sm btn-outline-medium" download><i class="fas fa-download"></i> SVG</a>
             </span>
         </p>
@@ -1922,9 +1949,7 @@
         <p class="text-black pt-3 align-horizontally flex-space-between">
             <span class="text-left color-gray-2 rb-isBold">White</span>
             <span class="text-right color-primary rb-isBold" style="float: right;">
-              <a href="/images/briar_horizontal_white.png" class="button btn btn-sm btn-outline-medium" download><i class="fas fa-download"></i> PNG</a>
-            </span>
-            <span class="text-right color-primary rb-isBold" style="float: right;">
+              <a href="/images/briar_horizontal_white.png" class="button btn btn-sm btn-outline-medium mr-1" download><i class="fas fa-download"></i> PNG</a>
               <a href="/images/briar_horizontal_color.svg" class="button btn btn-sm btn-outline-medium" download><i class="fas fa-download"></i> SVG</a>
             </span>
         </p>
@@ -1939,9 +1964,7 @@
         <p class="text-black pt-3 align-horizontally flex-space-between">
             <span class="text-left color-gray-2 rb-isBold">Default</span>
             <span class="text-right color-primary rb-isBold" style="float: right;">
-              <a href="/images/briar_vertical_color.png" class="button btn btn-sm btn-outline-medium" download><i class="fas fa-download"></i> PNG</a>
-            </span>
-            <span class="text-right color-primary rb-isBold" style="float: right;">
+              <a href="/images/briar_vertical_color.png" class="button btn btn-sm btn-outline-medium mr-1" download><i class="fas fa-download"></i> PNG</a>
               <a href="/images/briar_vertical_color.svg" class="button btn btn-sm btn-outline-medium"><i class="fas fa-download"></i> SVG</a>
             </span>
         </p>
@@ -1953,9 +1976,7 @@
         <p class="text-black pt-3 align-horizontally flex-space-between">
             <span class="text-left color-gray-2 rb-isBold">Black</span>
             <span class="text-right color-primary rb-isBold" style="float: right;">
-              <a href="/images/briar_vertical_black.png" class="button btn btn-sm btn-outline-medium" download><i class="fas fa-download"></i> PNG</a>
-            </span>
-            <span class="text-right color-primary rb-isBold" style="float: right;">
+              <a href="/images/briar_vertical_black.png" class="button btn btn-sm btn-outline-medium mr-1" download><i class="fas fa-download"></i> PNG</a>
               <a href="/images/briar_vertical_black.svg" class="button btn btn-sm btn-outline-medium" download><i class="fas fa-download"></i> SVG</a>
             </span>
         </p>
@@ -1968,9 +1989,7 @@
         <p class="text-black pt-3 align-horizontally flex-space-between">
             <span class="text-left color-gray-2 rb-isBold">White</span>
             <span class="text-right color-primary rb-isBold" style="float: right;">
-              <a href="/images/briar_vertical_white.png" class="button btn btn-sm btn-outline-medium" download><i class="fas fa-download"></i> PNG</a>
-            </span>
-            <span class="text-right color-primary rb-isBold" style="float: right;">
+              <a href="/images/briar_vertical_white.png" class="button btn btn-sm btn-outline-medium mr-1" download><i class="fas fa-download"></i> PNG</a>
               <a href="/images/briar_vertical_white.svg" class="button btn btn-sm btn-outline-medium" download><i class="fas fa-download"></i> SVG</a>
             </span>
         </p>
@@ -1985,9 +2004,7 @@
         <p class="text-black pt-3 align-horizontally flex-space-between">
             <span class="text-left color-gray-2 rb-isBold">Default</span>
             <span class="text-right color-primary rb-isBold" style="float: right;">
-              <a href="/images/briar_icon_color.png" class="button btn btn-sm btn-outline-medium" download><i class="fas fa-download"></i> PNG</a>
-            </span>
-            <span class="text-right color-primary rb-isBold" style="float: right;">
+              <a href="/images/briar_icon_color.png" class="button btn btn-sm btn-outline-medium mr-1" download><i class="fas fa-download"></i> PNG</a>
               <a href="/images/briar_icon_color.svg" class="button btn btn-sm btn-outline-medium" download><i class="fas fa-download"></i> SVG</a>
             </span>
         </p>
@@ -1999,9 +2016,7 @@
         <p class="text-black pt-3 align-horizontally flex-space-between">
             <span class="text-left color-gray-2 rb-isBold">Black</span>
             <span class="text-right color-primary rb-isBold" style="float: right;">
-              <a href="/images/briar_icon_black.png" class="button btn btn-sm btn-outline-medium" download><i class="fas fa-download"></i> PNG</a>
-            </span>
-            <span class="text-right color-primary rb-isBold" style="float: right;">
+              <a href="/images/briar_icon_black.png" class="button btn btn-sm btn-outline-medium mr-1" download><i class="fas fa-download"></i> PNG</a>
               <a href="/images/briar_icon_black.svg" class="button btn btn-sm btn-outline-medium"><i class="fas fa-download"></i> SVG</a>
             </span>
         </p>
@@ -2013,9 +2028,7 @@
         <p class="text-black pt-3 align-horizontally flex-space-between">
             <span class="text-left color-gray-2 rb-isBold">White</span>
             <span class="text-right color-primary rb-isBold" style="float: right;">
-              <a href="/images/briar_icon_white.png" class="button btn btn-sm btn-outline-medium" download><i class="fas fa-download"></i> PNG</a>
-            </span>
-            <span class="text-right color-primary rb-isBold" style="float: right;">
+              <a href="/images/briar_icon_white.png" class="button btn btn-sm btn-outline-medium mr-1" download><i class="fas fa-download"></i> PNG</a>
               <a href="/images/briar_icon_white.svg" class="button btn btn-sm btn-outline-medium"><i class="fas fa-download"></i> SVG</a>
             </span>
         </p>
@@ -2037,40 +2050,6 @@
             <a class="btn btn-lg btn-link p-0" href="https://demo.identihub.co/briarproject"
                target="_blank">Visit Project Page</a>
         </div>
-    </div>
-</div>
-
-    <h1 id="scrollspy"> </h1>
-<div class="page-header mb-4 mt-5 d-none d-sm-none">
-    <h3>Scrollspy</h3>
-</div>
-<div class="row p-0 pt-5 bg-light d-none d-sm-none">
-    <div class="bd-example">
-        <div class="row">
-            <div class="col-4">
-                <div id="list-example" class="list-group">
-                    <a class="list-group-item list-group-item-action active" href="https://briarproject.org/">Briar</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-2">Second Link</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-3">Third Link</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-4">Forth Link</a>
-                </div>
-            </div>
-            <div class="col-8">
-                <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem error eum inventore laboriosam necessitatibus nobis numquam praesentium quae tempore. Dignissimos minima rerum tenetur vel vero! Eius molestias natus nesciunt!
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="dropdown-divider mt-5 wi"></div>
-
-<div class="row">
-    <div class="col-12 p-0">
-        <p class="mt-5 mb-5">
-            <span class="text-muted small"> Styleguide code licensed under <a href="https://opensource.org/licenses/MIT" class="rb-link" title="MIT" target="_blank">MIT</a>, documents licensed under a <a href="https://creativecommons.org/licenses/by/3.0/us/" title="CC 3.0" target="_blank">Creative Commons Attribution 3.0 United States License</a>. Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate.<br>Templates and styles based on the <a href="https://freedomofpress.github.io/securedrop-styleguide/" target="_blank">SecureDrop style guide, converted from Jekyll to Hugo</a>.</span>
-        </p>
     </div>
 </div>
 
