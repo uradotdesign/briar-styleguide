@@ -2,6 +2,10 @@
   font-weight: 600 !important;
 }
 
+.text-muted {
+  color: var(--muted) !important;
+}
+
 .nav-link {
   color: var(--navtop-color) !important;
 }
@@ -83,6 +87,14 @@
   }
 }
 
+.image {
+  max-height: 200px;
+  height: 100%;
+  object-fit: contain;
+  overflow: hidden;
+  text-align: center;
+}
+
 .theme_toggle {
   border: none;
   font-weight: bold;
@@ -99,7 +111,7 @@
 .list-group-item.inner-sidebar {
   background-color: var(--sidebar-inner-bg) !important;
   color: var(--sidebar-text) !important;
-  padding: 1rem 0rem 1rem 3.5rem !important;
+  padding: 1rem 0rem 1rem 3.3rem !important;
 }
 
 .list-group-item.inner-sidebar:hover {
@@ -138,7 +150,6 @@
 }
 
 .rb-contain {
-  width: 100%;
   height: auto;
   max-height: 100%;
 }
@@ -328,7 +339,7 @@
 
 .alert-primary {
   color: #ffffff !important;
-  background-color: var(--primary) !important;
+  background-color: #53830E !important;
   border-color: transparent !important;
 }
 
@@ -925,11 +936,11 @@
 }
 
 .color-primary {
-  color: var(--primary);
+  color: #53830E;
 }
 
 .color-secondary {
-  color: var(--secondary);
+  color: #3E620C;
 }
 
 .color-gray-2 {
@@ -1395,6 +1406,7 @@ a:hover {
   --bg-hover: #DFDFDF;
   --navtop-color: #ffffff;
   --navtop-hover: :root black;
+  --muted: #6c757d;
 }
 
 .dark {
@@ -1416,6 +1428,7 @@ a:hover {
   --bg-hover: #15212D;
   --navtop-color: #ffffff;
   --navtop-hover: #919191;
+  --muted: #ffffff;
 }
 
 /*# sourceMappingURL=main.css.map */
