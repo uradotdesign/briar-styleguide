@@ -45,6 +45,7 @@ a:hover {
     --bg-hover: #{$gray-200};
     --navtop-color: #{$white};
     --navtop-hover: #{&black};
+    --muted: #6c757d;
 }
 
 .dark {
@@ -66,4 +67,5 @@ a:hover {
     --bg-hover: #{$night-900};
     --navtop-color: #{$white};
     --navtop-hover: #{$gray-600};
+    --muted: #{$white};
 }

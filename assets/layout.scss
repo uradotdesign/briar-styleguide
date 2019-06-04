@@ -2,6 +2,10 @@
     font-weight: 600 !important;
 }
 
+.text-muted {
+  color: var(--muted) !important;
+}
+
 .nav-link {
   color: var(--navtop-color) !important;
 
@@ -83,6 +87,14 @@ z-index: 999;
   }
 }
 
+.image {
+  max-height: 200px;
+  height: 100%;
+  object-fit: contain;
+  overflow: hidden;
+  text-align: center;
+}
+
 .theme_toggle {
   border: none;
   font-weight: bold;
@@ -99,7 +111,7 @@ z-index: 999;
 .list-group-item.inner-sidebar {
   background-color: var(--sidebar-inner-bg) !important;
   color: var(--sidebar-text) !important;
-  padding: 1rem 0rem 1rem 3.5rem !important;
+  padding: 1rem 0rem 1rem 3.3rem !important;
 
   &:hover {
     color: var(--hover) !important;
@@ -138,7 +150,6 @@ z-index: 999;
 }
 
 .rb-contain {
-  width: 100%;
   height: auto;
   max-height: 100%;
 }
