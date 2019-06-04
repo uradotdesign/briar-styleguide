@@ -658,9 +658,9 @@ div[data-tabs] input {
 }
 
 div[data-tabs] input:checked + label {
-    border-top-color: $lime-500;
+    border-top-color: $lime-700;
     border-bottom-color: #f9f9fa;
-    color: $lime-500;
+    color: $lime-700;
 }
 div[data-tabs] input + label {
     border: 1px solid #ededf0;
@@ -681,7 +681,7 @@ div[data-tabs] input + label + div[data-tab] {
 }
 div[data-tabs] div[data-tab] {
     grid-column-end: span 6;
-    padding: .5rem;
+    padding: 1rem;
     border: 1px solid #ededf0;
     margin-top: -1px;
 }
@@ -693,93 +693,93 @@ div[data-tabs] div[data-tab] {
 }
 
 .btn-primary {
-  background-color: $primary !important;
+  background-color: $lime-700 !important;
   border-color: transparent !important;
   padding: 1rem 1.5rem !important;
   font-size: 1rem;
   &:hover {
-    background-color: $secondary !important;
+    background-color: $lime-800 !important;
     border-color: transparent !important;
   }
 }
 
 .btn-small {
-  background-color: $primary !important;
+  background-color: $lime-700 !important;
   border-color: transparent !important;
   padding: .08rem .4rem 0 !important;
   font-size: .8rem;
   color: $white !important;
   &:hover {
-    background-color: $secondary !important;
+    background-color: $lime-800 !important;
     border-color: transparent !important;
     color: $white !important;
   }
 }
 
 .btn-medium {
-  background-color: $primary !important;
+  background-color: $lime-700 !important;
   border-color: transparent !important;
   padding: .5rem 1rem !important;
   font-size: 1rem !important;
   color: $white !important;
   &:hover {
-    background-color: $secondary !important;
+    background-color: $lime-800 !important;
     border-color: transparent !important;
     color: $white !important;
   }
 }
 
 .btn-outline-medium {
-  border-color: $primary !important;
-  color: $primary !important;
+  border-color: $lime-700 !important;
+  color: $lime-700 !important;
   padding: .5rem 1rem !important;
   font-size: 1rem !important;
   background-color: transparent !important;
 
   &:hover {
     color: white !important;
-    background-color: $primary !important;
+    background-color: $lime-700 !important;
     border-color: transparent !important;
   }
 }
 
 .btn-outline-small {
-  border-color: $primary !important;
-  color: $primary !important;
+  border-color: $lime-700 !important;
+  color: $lime-700 !important;
   padding: .08rem .4rem 0 !important;
   font-size: .8rem;
   background-color: transparent !important;
 
   &:hover {
     color: white !important;
-    background-color: $primary !important;
+    background-color: $lime-700 !important;
     border-color: transparent !important;
   }
 }
 
 .btn-outline-primary {
-  border-color: $primary !important;
-  color: $primary !important;
+  border-color: $lime-700 !important;
+  color: $lime-700 !important;
   padding: 1rem 1.5rem !important;
   font-size: 1rem;
 
   &:hover {
     color: white !important;
-    background-color: $primary !important;
+    background-color: $lime-700 !important;
     border-color: transparent !important;
   }
 }
 
 .btn-link {
-  color: $primary !important;
+  color: $lime-700 !important;
 
   &:hover {
-    color: $secondary !important;
+    color: $lime-800 !important;
   }
 }
 
 .btn-default {
-  background: $primary;
+  background: $lime-700;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   padding: 3px 10px !important;
@@ -861,7 +861,7 @@ div[data-tabs] div[data-tab] {
 
 .btn-default:active, .btn-default:focus, .btn-default:hover {
   background: #fff !important;
-  color: $primary !important;
+  color: $lime-700 !important;
   border: 1px solid #7985aa !important;
 }
 
@@ -875,26 +875,26 @@ div[data-tabs] div[data-tab] {
 }
 
 .badge-primary {
-  background-color: $primary !important;
+  background-color: $lime-700 !important;
 }
 
 .badge-secondary {
-  background-color: $secondary !important;
+  background-color: $lime-800 !important;
 }
 
 .rb-link {
-  color: $primary !important;
+  color: $lime-700 !important;
   &:hover {
-    color: $secondary !important;
+    color: $lime-800 !important;
   }
 }
 
 .rb-paginate-active {
-  background-color: $primary !important;
+  background-color: $lime-700 !important;
   color: white !important;
 
   &:hover {
-    background-color: $secondary !important;
+    background-color: $lime-800 !important;
   }
 }
 
@@ -990,11 +990,11 @@ img {
 }
 
 input:checked + .slider {
-  background-color: $primary;
+  background-color: $lime-700;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px $primary;
+  box-shadow: 0 0 1px $lime-700;
 }
 
 input:checked + .slider:before {

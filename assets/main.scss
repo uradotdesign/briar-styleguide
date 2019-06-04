@@ -12,16 +12,23 @@ body {
   background-color: var(--body) !important;
 }
 
+body:after{
+ position: absolute; overflow: hidden; left: -50000px;
+ content: url("../images/wide-logo.png") url("../images/logo-text-white.png");
+}
+
 a {
   text-decoration: none !important;
-  color: $primary !important;
+  color: $lime-700 !important;
 }
 
 a:hover {
-    color: $secondary !important;
+    color: $lime-800 !important;
   }
 
 :root {
+    --primary: #{$lime-700};
+    --secondary: #{$lime-800};
     --body: #{$white};
     --text: #{$gray-900};
     --logo: url("../images/wide-logo.png");
@@ -41,6 +48,8 @@ a:hover {
 }
 
 .dark {
+    --primary: #{$night-200};
+    --secondary: #{$night-300};
     --body: #{$night-900};
     --text: #{$white};
     --logo: url("../images/logo-text-white.png");

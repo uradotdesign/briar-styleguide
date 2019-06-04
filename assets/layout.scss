@@ -17,7 +17,7 @@
   background: var(--logo);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 60%;
+  background-size: 50%;
 }
 
 .hero-header {
@@ -44,6 +44,7 @@
     -webkit-transition-timing-function: linear;
     -webkit-transition-duration: .3s;
     transition-duration: .3s;
+    float: left;
   }
 
   & .list-group-item {
@@ -63,6 +64,23 @@ position: fixed;
 top: 10px;
 right: 10px;
 z-index: 999;
+}
+
+.stick-bottom {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width: 100%;
+
+  & > .list-group-item {
+    border-bottom: none !important;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-height: 820px) {
+  .stick-bottom {
+    position: relative !important;
+  }
 }
 
 .theme_toggle {
@@ -85,6 +103,7 @@ z-index: 999;
 
   &:hover {
     color: var(--hover) !important;
+    background-color: var(--hover-bg) !important;
   }
 }
 
