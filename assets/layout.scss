@@ -35,9 +35,10 @@
 
 .sidebar {
   height: 100%;
-  width: 16.66666667%;
+  width: 18.66666667%;
   background-color: var(--sidebar-bg);
   position: fixed;
+  z-index: 9999;
   top: 0;
   left: 0;
   overflow-y: auto;
@@ -211,19 +212,6 @@ z-index: 999;
 
 .b-border {
   border-bottom: 2px solid lightgrey !important;
-}
-
-.no-js-banner {
-    width:100%;
-    position:fixed;
-    bottom:0px;
-    background-color: #fff7c9;
-    color: #786600;
-    display: none;
-    padding-top: .5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: .5rem;
 }
 
 @media (min-width:992px) {
