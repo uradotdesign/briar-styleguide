@@ -1014,19 +1014,19 @@ div[data-tabs] div[data-tab] {
 }
 
 .btn-primary {
-  background-color: #53830E !important;
+  background-color: #2E3D4F !important;
   border-color: transparent !important;
   padding: 1rem 1.5rem !important;
   font-size: 1rem;
 }
 
 .btn-primary:hover {
-  background-color: #3E620C !important;
+  background-color: #212D3B !important;
   border-color: transparent !important;
 }
 
 .btn-small {
-  background-color: #53830E !important;
+  background-color: #2E3D4F !important;
   border-color: transparent !important;
   padding: .08rem .4rem 0 !important;
   font-size: .8rem;
@@ -1034,13 +1034,13 @@ div[data-tabs] div[data-tab] {
 }
 
 .btn-small:hover {
-  background-color: #3E620C !important;
+  background-color: #212D3B !important;
   border-color: transparent !important;
   color: #ffffff !important;
 }
 
 .btn-medium {
-  background-color: #53830E !important;
+  background-color: #2E3D4F !important;
   border-color: transparent !important;
   padding: .5rem 1rem !important;
   font-size: 1rem !important;
@@ -1048,14 +1048,14 @@ div[data-tabs] div[data-tab] {
 }
 
 .btn-medium:hover {
-  background-color: #3E620C !important;
+  background-color: #212D3B !important;
   border-color: transparent !important;
   color: #ffffff !important;
 }
 
 .btn-outline-medium {
-  border-color: #53830E !important;
-  color: #53830E !important;
+  border-color: #2E3D4F !important;
+  color: #2E3D4F !important;
   padding: .5rem 1rem !important;
   font-size: 1rem !important;
   background-color: transparent !important;
@@ -1063,13 +1063,13 @@ div[data-tabs] div[data-tab] {
 
 .btn-outline-medium:hover {
   color: white !important;
-  background-color: #53830E !important;
+  background-color: #2E3D4F !important;
   border-color: transparent !important;
 }
 
 .btn-outline-small {
-  border-color: #53830E !important;
-  color: #53830E !important;
+  border-color: #2E3D4F !important;
+  color: #2E3D4F !important;
   padding: .08rem .4rem 0 !important;
   font-size: .8rem;
   background-color: transparent !important;
@@ -1077,40 +1077,40 @@ div[data-tabs] div[data-tab] {
 
 .btn-outline-small:hover {
   color: white !important;
-  background-color: #53830E !important;
+  background-color: #2E3D4F !important;
   border-color: transparent !important;
 }
 
 .btn-outline-primary {
-  border-color: #53830E !important;
-  color: #53830E !important;
+  border-color: #2E3D4F !important;
+  color: #2E3D4F !important;
   padding: 1rem 1.5rem !important;
   font-size: 1rem;
 }
 
 .btn-outline-primary:hover {
   color: white !important;
-  background-color: #53830E !important;
+  background-color: #2E3D4F !important;
   border-color: transparent !important;
 }
 
 .btn-link {
-  color: #53830E !important;
+  color: #2E3D4F !important;
 }
 
 .btn-link:hover {
-  color: #3E620C !important;
+  color: #212D3B !important;
 }
 
 .btn-default {
-  background: #53830E;
+  background: #2E3D4F;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   padding: 3px 10px !important;
   margin: 2px auto;
   border: 1px solid transparent;
   border-radius: .25rem;
-  color: #fff !important;
+  color: white !important;
   font-size: medium;
   cursor: pointer;
   text-align: center;
@@ -1135,40 +1135,6 @@ div[data-tabs] div[data-tab] {
   color: #d55c5c;
 }
 
-.btn-starred {
-  color: white !important;
-  background-color: orange !important;
-  border-color: 1px solid orange !important;
-  padding: 3px 10px !important;
-  -moz-box-sizing: border-box;
-  margin: 2px auto !important;
-  cursor: pointer;
-  text-align: center;
-}
-
-.btn-starred:hover {
-  color: orange !important;
-  background-color: white !important;
-  border-color: orange !important;
-}
-
-.btn-unstar {
-  color: white !important;
-  background-color: #e69500 !important;
-  border-color: 1px solid #e69500 !important;
-  padding: 3px 10px !important;
-  -moz-box-sizing: border-box;
-  margin: 2px auto !important;
-  cursor: pointer;
-  text-align: center;
-}
-
-.btn-unstar:hover {
-  color: #e69500 !important;
-  background-color: white !important;
-  border-color: #e69500 !important;
-}
-
 .btn-close {
   float: right;
   font-size: 21px;
@@ -1185,7 +1151,7 @@ div[data-tabs] div[data-tab] {
 
 .btn-default:active, .btn-default:focus, .btn-default:hover {
   background: #fff !important;
-  color: #53830E !important;
+  color: #2E3D4F !important;
   border: 1px solid #7985aa !important;
 }
 
@@ -1199,11 +1165,11 @@ div[data-tabs] div[data-tab] {
 }
 
 .badge-primary {
-  background-color: #53830E !important;
+  background-color: #2E3D4F !important;
 }
 
 .badge-secondary {
-  background-color: #3E620C !important;
+  background-color: #212D3B !important;
 }
 
 .rb-link {
@@ -1230,17 +1196,6 @@ div[data-tabs] div[data-tab] {
 .mark, mark {
   background-color: #DFDFDF !important;
   padding: .2em !important;
-}
-
-.btn-star {
-  color: #d3d3d3 !important;
-  background-color: transparent !important;
-  padding: 0 !important;
-  border: none !important;
-}
-
-.btn-star:hover {
-  color: orange !important;
 }
 
 img {
