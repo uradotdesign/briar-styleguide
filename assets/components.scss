@@ -693,100 +693,100 @@ div[data-tabs] div[data-tab] {
 }
 
 .btn-primary {
-  background-color: $lime-700 !important;
+  background-color: $night-700 !important;
   border-color: transparent !important;
   padding: 1rem 1.5rem !important;
   font-size: 1rem;
   &:hover {
-    background-color: $lime-800 !important;
+    background-color: $night-800 !important;
     border-color: transparent !important;
   }
 }
 
 .btn-small {
-  background-color: $lime-700 !important;
+  background-color: $night-700 !important;
   border-color: transparent !important;
   padding: .08rem .4rem 0 !important;
   font-size: .8rem;
   color: $white !important;
   &:hover {
-    background-color: $lime-800 !important;
+    background-color: $night-800 !important;
     border-color: transparent !important;
     color: $white !important;
   }
 }
 
 .btn-medium {
-  background-color: $lime-700 !important;
+  background-color: $night-700 !important;
   border-color: transparent !important;
   padding: .5rem 1rem !important;
   font-size: 1rem !important;
   color: $white !important;
   &:hover {
-    background-color: $lime-800 !important;
+    background-color: $night-800 !important;
     border-color: transparent !important;
     color: $white !important;
   }
 }
 
 .btn-outline-medium {
-  border-color: $lime-700 !important;
-  color: $lime-700 !important;
+  border-color: $night-700 !important;
+  color: $night-700 !important;
   padding: .5rem 1rem !important;
   font-size: 1rem !important;
   background-color: transparent !important;
 
   &:hover {
     color: white !important;
-    background-color: $lime-700 !important;
+    background-color: $night-700 !important;
     border-color: transparent !important;
   }
 }
 
 .btn-outline-small {
-  border-color: $lime-700 !important;
-  color: $lime-700 !important;
+  border-color: $night-700 !important;
+  color: $night-700 !important;
   padding: .08rem .4rem 0 !important;
   font-size: .8rem;
   background-color: transparent !important;
 
   &:hover {
     color: white !important;
-    background-color: $lime-700 !important;
+    background-color: $night-700 !important;
     border-color: transparent !important;
   }
 }
 
 .btn-outline-primary {
-  border-color: $lime-700 !important;
-  color: $lime-700 !important;
+  border-color: $night-700 !important;
+  color: $night-700 !important;
   padding: 1rem 1.5rem !important;
   font-size: 1rem;
 
   &:hover {
     color: white !important;
-    background-color: $lime-700 !important;
+    background-color: $night-700 !important;
     border-color: transparent !important;
   }
 }
 
 .btn-link {
-  color: $lime-700 !important;
+  color: $night-700 !important;
 
   &:hover {
-    color: $lime-800 !important;
+    color: $night-800 !important;
   }
 }
 
 .btn-default {
-  background: $lime-700;
+  background: $night-700;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   padding: 3px 10px !important;
   margin: 2px auto;
   border: 1px solid transparent;
   border-radius: .25rem;
-  color: #fff !important;
+  color: white !important;
   font-size: medium;
   cursor: pointer;
   text-align: center;
@@ -811,40 +811,6 @@ div[data-tabs] div[data-tab] {
   }
 }
 
-.btn-starred {
-  color: white !important;
-  background-color: orange !important;
-  border-color: 1px solid orange !important;
-  padding: 3px 10px !important;
-  -moz-box-sizing: border-box;
-  margin: 2px auto !important;
-  cursor: pointer;
-  text-align: center;
-
-  &:hover {
-    color: orange !important;
-    background-color: white !important;
-    border-color: orange !important;
-  }
-}
-
-.btn-unstar {
-  color: white !important;
-  background-color: #e69500 !important;
-  border-color: 1px solid #e69500 !important;
-  padding: 3px 10px !important;
-  -moz-box-sizing: border-box;
-  margin: 2px auto !important;
-  cursor: pointer;
-  text-align: center;
-
-  &:hover {
-    color: #e69500 !important;
-    background-color: white !important;
-    border-color: #e69500 !important;
-  }
-}
-
 .btn-close {
   float: right;
   font-size: 21px;
@@ -861,7 +827,7 @@ div[data-tabs] div[data-tab] {
 
 .btn-default:active, .btn-default:focus, .btn-default:hover {
   background: #fff !important;
-  color: $lime-700 !important;
+  color: $night-700 !important;
   border: 1px solid #7985aa !important;
 }
 
@@ -875,26 +841,26 @@ div[data-tabs] div[data-tab] {
 }
 
 .badge-primary {
-  background-color: $lime-700 !important;
+  background-color: $night-700 !important;
 }
 
 .badge-secondary {
-  background-color: $lime-800 !important;
+  background-color: $night-800 !important;
 }
 
 .rb-link {
-  color: $lime-700 !important;
+  color: $night-700 !important;
   &:hover {
-    color: $lime-800 !important;
+    color: $night-800 !important;
   }
 }
 
 .rb-paginate-active {
-  background-color: $lime-700 !important;
+  background-color: $night-700 !important;
   color: white !important;
 
   &:hover {
-    background-color: $lime-800 !important;
+    background-color: $night-800 !important;
   }
 }
 
@@ -907,16 +873,6 @@ div[data-tabs] div[data-tab] {
   padding: .2em !important;
 }
 
-.btn-star {
-  color: #d3d3d3 !important;
-  background-color: transparent !important;
-  padding: 0 !important;
-  border: none !important;
-
-  &:hover {
-    color: orange !important;
-  }
-}
 
 img {
   max-width: 100%;
