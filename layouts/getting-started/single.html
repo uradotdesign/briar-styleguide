@@ -4,7 +4,6 @@
           <div class="row" style="height: 100%">
               <div class="col-md-6 col-sm-6 col-xs-6 p-0 display-md">
                   {{ partial "navbar_side.html" . }}
-                    <!-- sidebarClassName="rb-sidebar__1" %} -->
               </div>
             </div>
           </div>
@@ -25,11 +24,6 @@
                         To use the Briar style guide, you can download our scss style (components.scss) and
                         import it in your project with bootstrap included. <a href="http://sass-lang.com/">SASS</a> is a CSS extension language.
                     </p>
-                    <p class="purple">
-                        If you want to use SASS you can download the complete archive for the styleguide. The scss folder under
-                        assets contains all the sass files. Since we use bootstrap, we only add a few styles without
-                        modifying bootstrap core or defining new elements whenever possible.
-                    </p>
                     <p>Bootstrap contains a few JavaScript libraries for extra interaction with the DOM. We use these
                         libraries but do not add extra JavaScript, so that only few elements are affected if you disable JavaScript.
                     </p>
@@ -43,6 +37,7 @@
                             <a class="btn btn-lg btn-link p-0" title="Briar Repo"
                                href="https://github.com/uracreative/briar-styleguide/tree/master/assets" target="_blank">Visit Repo</a></div>
                         <div>
+                          {{ partial "getting-started/include-in-a-project.html" . }}
                     </div>
                 </div>
             </div>

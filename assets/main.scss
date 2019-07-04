@@ -13,7 +13,7 @@ body {
 }
 
 body:after{
- position: absolute; overflow: hidden; left: -50000px;
+ display: none;
  content: url("../images/wide-logo.png") url("../images/logo-text-white.png");
 }
 
