@@ -132,14 +132,14 @@
   </div>
   <div class="col-md-8 col-xs-12 col-sm-12 pt-5">
     
-    <div id="colors" class="page-header mb-4">
-  <h2 class="b-border">Colors</h2>
-  <p class="text-muted">Briar has a variety of colors used throughout the interface.</p>
+    <div id="colors" class="col-md-12 page-header mb-4 p-0">
+  <h4 class="pb-2">Colors</h2>
+  <p>Briar’s color scheme offers enough flexibility to account for various use cases while keeping every color shade distinguishable.</p>
 </div>
 
-  <div class="color-palette row col-md-12 mt-4">
+  <div class="color-palette row col-md-12 pt-3 p-0">
          <div class="green col col-md-6 col-xs-12 mb-4">
-           <h4>Lime</h4>
+           <h5 class="pb-3">Lime</h5>
            <div class="distributed palette">
              <div class="colors">
                <div class="color-overview background-lime-50 p-2">
@@ -386,7 +386,7 @@
            </div>
          </div>
          <div class="blue col col-md-6 col-xs-12 mb-4">
-           <h4>Blue</h4>
+           <h5 class="pb-3">Blue</h5>
            <div class="distributed palette">
              <div class="colors">
                <div class="color-overview background-blue-50 p-2">
@@ -633,7 +633,7 @@
            </div>
          </div>
          <div class="orange col col-xs-12 mb-4">
-           <h4>Orange</h4>
+           <h5 class="pb-3">Orange</h5>
            <div class="distributed palette">
              <div class="colors">
                <div class="color-overview background-orange-50 p-2">
@@ -880,7 +880,7 @@
            </div>
          </div>
          <div class="red col col-xs-12 mb-4">
-           <h4>Red</h4>
+           <h5 class="pb-3">Red</h5>
            <div class="distributed palette">
              <div class="colors">
                <div class="color-overview background-red-50 p-2">
@@ -1128,11 +1128,9 @@
          </div>
        </div>
 
-<div class="color-palette row col-md-12 mt-4">
+<div class="color-palette row col-md-12 p-0">
        <div class="night col col-xs-12 mb-3">
-         <h2>Dark palette</h2>
-         <hr>
-         <p class="text-muted">Our dark palette is primarily used for interfaces that are adapting a night theme. Shades of it can be used as backgrounds, borders, and shadows to emphasise certain areas or set them apart.</p>
+         <h5 class="pb-3">Dark</h5>
          <div class="distributed palette">
            <div class="colors">
              <div class="color-overview background-night-50 p-2">
@@ -1377,12 +1375,11 @@
              </div>
            </div>
          </div>
+         <p class="text-muted pt-3">The dark palette is primarily used for interfaces that are adapting a night theme. Shades of it can be used as backgrounds, borders, and shadows to emphasise certain areas or set them apart.</p>
        </div>
 
        <div class="night col col-xs-12 mb-3">
-         <h2>Gray palette</h2>
-         <hr>
-         <p class="text-muted">Our neutral palette is primarily used within components to help differentiate hierarchy. Shades of gray can be used as backgrounds, borders, and shadows to emphasise certain areas or set them apart.</p>
+         <h5 class="pb-3">Gray</h5>
          <div class="distributed palette">
            <div class="colors">
              <div class="color-overview background-gray-50 p-2">
@@ -1627,305 +1624,157 @@
              </div>
            </div>
          </div>
+                  <p class="text-muted pt-3">The neutral palette is primarily used within components to help differentiate hierarchy. Shades of gray can be used as backgrounds, borders, and shadows to emphasise certain areas or set them apart.</p>
        </div>
-
        </div>
 
     <div id="grid" class="page-header mb-4 mt-5">
-    <h2 class="b-border">Spacing</h2>
-    <p class="text-muted">Material Design layouts encourage consistency across platforms, environments, and screen sizes by using uniform elements and spacing.</p>
-    <p class="text-muted">Material Design layouts are visually balanced. Most measurements align to an 8dp grid applied, which aligns both spacing and the overall layout.
-      Smaller components, such as iconography and typography, can align to a 4dp grid.</p>
+    <h4 class="pb-2">Spacing</h4>
+    <p>Briar uses <a class="underline" href="https://material.io/design/layout/#usage" target="_blank" rel="noopener">Material Design spacing guidelines</a> for both Web and Android platforms. Material Design layouts encourage consistency across platforms, environments, and screen sizes by using uniform elements and spacing. Material Design layouts are visually balanced. Most measurements align to an 8dp grid applied, which aligns both spacing and the overall layout. Smaller components, such as iconography and typography, can align to a 4dp grid.</p>
 </div>
 <div class="p-1">
     <img src="/images/grid.png" />
-    <p class="pt-1 text-muted">8dp and 4dp units</p>
-    <p class="pt-4">The Briar Android app is based on the Google Material Design guidelines. Read more <a href="https://material.io/design/layout/#usage" target="_blank" rel="noopener">here</a>.</p>
 </div>
 
     <div id="typography" class="page-header mb-4 mt-5">
-  <h2 class="b-border">Typography</h2>
-  <p class="text-muted">Our main typography is Inter UI made by <a href="https://rsms.me" target="_blank" rel="noopener">Rasmus Andresson</a> and Roboto for Android.</p>
-</div>
-<div class="row">
-
-  <form class="pt-3 pb-3 col-md-8">
-    <div data-tabs="">
-
-      <input type="radio" name="ptabs" id="platform-web" checked="checked">
-      <label for="platform-web">Web</label>
-      <div data-tab="" class="grid-2">
-
-        <p><img src="/images/typography/typography-inter.svg" alt="Inter UI font"></p>
-
-        <div>
-          <p><a href="https://rsms.me/inter/" target="_blank" rel="noopener">Inter UI</a> is the typeface used in Briar web interfaces.</p>
-        </div>
-
-      </div>
-
-      <input type="radio" name="ptabs" id="platform-android">
-      <label for="platform-android">Android</label>
-      <div data-tab="" class="grid-2">
-
-        <p><img src="../images/typography/typography-roboto.svg" alt="Roboto font"></p>
-
-        <div>
-          <p><a href="https://fonts.google.com/specimen/Roboto" target="_blank" rel="noopener">Roboto</a> is the typeface used in Briar Android products.</p>
-        </div>
-
-      </div>
-
-
-    </div>
-  </form>
-
-  <div class="col-12">
-    <div class="col-md-8 col-sm-12 border-gray-200 p-5">
-      <p class="font-20">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
-      <p class="font-20">a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-      <p class="font-20">0 1 2 3 4 5 6 7 8 9</p>
-    </div>
-
-    <h3 class="pt-5">Font sizes</h3>
-    <p class="text-muted">The font scale consists of 6 different font sizes.</p>
-
-    <form class="pt-3 pb-3 col-md-8">
-      <div data-tabs="">
-
-        <input type="radio" name="ptabs" id="font-web" checked="checked">
-        <label for="font-web">Web</label>
-        <div data-tab="" class="grid-2">
-
-          <p><img src="/images/typography/typography-inter.svg" alt="Inter UI font"></p>
-
-          <div>
-            <p><a href="https://rsms.me/inter/" target="_blank" rel="noopener">Inter UI</a> is the typeface used in Briar web interfaces.</p>
-          </div>
-
-        </div>
-
-        <input type="radio" name="ptabs" id="font-android">
-        <label for="font-android">Android</label>
-        <div data-tab="" class="grid-2">
-
-          <p><img src="../images/typography/typography-roboto.svg" alt="Roboto font"></p>
-
-          <div>
-            <p><a href="https://fonts.google.com/specimen/Roboto" target="_blank" rel="noopener">Roboto</a> is the typeface used in Briar Android products. The type system is used according to the <a href="https://material.io/design/typography/the-type-system.html" target="_blank" rel="noopener">Material Design guidelines.</a></p>
-          </div>
-
-        </div>
-
-
-      </div>
-    </form>
-
-    <div class="col-md-8 border-gray-200 p-4 antiscroll">
-
-      <h1>The quick brown fox jumps over the lazy dog</h1>
-      <p class="text-black small text-muted">H1</p>
-    </div>
-
-    <div class="col-md-8 border-gray-200 p-4 antiscroll">
-
-      <h2>The quick brown fox jumps over the lazy dog</h2>
-      <p class="text-black small text-muted">H2</p>
-    </div>
-
-    <div class="col-md-8 border-gray-200 p-4 antiscroll">
-
-      <h3>The quick brown fox jumps over the lazy dog</h3>
-      <p class="text-black small text-muted">H3</p>
-    </div>
-
-    <div class="col-md-8 border-gray-200 p-4 antiscroll">
-
-      <h4>The quick brown fox jumps over the lazy dog</h4>
-      <p class="text-black small text-muted">H4</p>
-    </div>
-
-    <div class="col-md-8 border-gray-200 p-4 antiscroll">
-
-      <h5>The quick brown fox jumps over the lazy dog</h5>
-      <p class="text-black small text-muted">H5</p>
-    </div>
-
-    <div class="col-md-8 border-gray-200 p-4 antiscroll">
-
-      <h6>The quick brown fox jumps over the lazy dog</h6>
-      <p class="text-black small text-muted">H6</p>
-    </div>
-
+  <h4 class="pb-2">Typography</h4>
+  <span>
+  <div class="alert alert-tip" role="alert">
+    These are Web guidelines. For Android, please refer to the <a class="underline" href="https://material.io/design/typography/the-type-system.html" target="_blank" rel="noopener">Material Design guidelines</a>.
   </div>
+</span>
+  <p class="pt-3">Briar’s typography system slightly differs from platform to platform. On the web, we use a slightly modified version of the <a class="underline" href="https://material.io/design/typography/the-type-system.html" target="_blank" rel="noopener">Material Design typography guidelines</a> using the <a class="underline" href="https://rsms.me" target="_blank" rel="noopener">Inter typeface by Rasmus Andersson</a> and <a class="underline" href="https://fonts.google.com/specimen/Roboto" target="_blank" rel="noopener">Roboto Mono</a> for code snippets and other cases where a monospace font might be required.</p>
 </div>
-<div class="row pt-5">
+
+<div class="row mono no-gutters">
+ <table>
+  <tr class="mono">
+    <th>Scale Category</th>
+    <th>Font Weight</th>
+    <th>Size</th>
+    <th>Case</th>
+    <th>Letter spacing</th>
+  </tr>
+  <tr>
+    <td><h1>H1</h1></td>
+    <td>Light</td>
+    <td>96</td>
+    <td>Sentence</td>
+    <td>-1.5</td>
+  </tr>
+  <tr>
+    <td><h2>H2</h2></td>
+    <td>Light</td>
+    <td>60</td>
+    <td>Sentence</td>
+    <td>-0.5</td>
+  </tr>
+  <tr>
+    <td><h3>H3</h3></td>
+    <td>Regular</td>
+    <td>48</td>
+    <td>Sentence</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><h4>H4</h4></td>
+    <td>Regular</td>
+    <td>34</td>
+    <td>Sentence</td>
+    <td>0.25</td>
+  </tr>
+  <tr>
+    <td><h5>H5</h5></td>
+    <td>Regular</td>
+    <td>24</td>
+    <td>Sentence</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><h6>H6</h6></td>
+    <td>Medium</td>
+    <td>20</td>
+    <td>Sentence</td>
+    <td>0.15</td>
+  </tr>
+  <tr>
+    <td><p class="subtitle-1 p-0 m-0">Subtitle 1</p></td>
+    <td>Regular</td>
+    <td>16</td>
+    <td>Sentence</td>
+    <td>0.15</td>
+  </tr>
+  <tr>
+    <td><p class="subtitle-2 p-0 m-0">Subtitle 2</p></td>
+    <td>Medium</td>
+    <td>14</td>
+    <td>Sentence</td>
+    <td>0.1</td>
+  </tr>
+  <tr>
+    <td><p class="body-1 p-0 m-0">Body 1</p></td>
+    <td>Regular</td>
+    <td>16</td>
+    <td>Sentence</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><p class="body-2 p-0 m-0">Body 2</p></td>
+    <td>Regular</td>
+    <td>14</td>
+    <td>Sentence</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><p class="button p-0 m-0">Button</p></td>
+    <td>Medium</td>
+    <td>14</td>
+    <td>Sentence</td>
+    <td>0.5</td>
+  </tr>
+  <tr>
+    <td><p class="caption p-0 m-0">Caption</p></td>
+    <td>Regular</td>
+    <td>12</td>
+    <td>Sentence</td>
+    <td>0.4</td>
+  </tr>
+  <tr>
+    <td><p class="overline p-0 m-0">Overline</p></td>
+    <td>Regular</td>
+    <td>10</td>
+    <td>All Caps</td>
+    <td>1.5</td>
+  </tr>
+</table>
+</div>
+
+<div class="row no-gutters pt-5">
   <div class="col-md-5">
-    <p class="text-black small">
-      <span class="text-left color-gray-2 rb-isBold">Paragraph</span>
-      <span class="text-right color-primary rb-isBold" style="float: right;">Inter UI Regular</span>
-    </p>
-    <p>
-      Briar is a messaging app designed for activists, journalists, and anyone else who needs a <mark>safe</mark>, easy and robust way to communicate.
-    </p>
+    <h5 class="pb-2">Links</h5>
+    <div class="bg-box">This is a paragraph with a <a class="underline" href="#">Link</a>.</div>
+    <p class="pt-3">In paragraphs (not UI components) links are underlined for accessibility reasons.</p>
   </div>
   <div class="col-md-1"></div>
   <div class="col-md-6">
-    <p class="text-black small">
-      <span class="text-left color-gray-2 rb-isBold">Code Snippet</span>
-      <span class="text-right color-primary rb-isBold" style="float: right;">Inter</span>
-    </p>
-    <pre class="bg-light p-2 prettyprint rb-code" style="border: none;">
-          $('.br-sidebar').on('click', 'a',function() {
-              $('.br-sidebar a.active').removeClass('active');
-              $(this).addClass('active');
-          });
-        </pre>
+    <h5 class="pb-2">Monospace</h5>
+    <div class="bg">
+      <p class="p-0 m-0 mono break">briar://adotxjsvndqs5olgvplspnyhaptdsaewfsddfcwasrfredj98jidhnbfsicnjdfngksdhujnlglahnd</p>
+    </div>
+    <p class="pt-3">In some cases (such as code snippets or contact links) a mono space typeface is required. We use <a class="underline" href="https://fonts.google.com/specimen/Roboto" target="_blank" rel="noopener">Roboto Mono</a> with a slightly darker or lighter shade background to distinguish the snippet from other text.</p>
   </div>
 </div>
 
-    <div id="icons" class="page-header mb-4 mt-5">
-    <h2 class="b-border">Icons</h2>
+    <div id="icons" class="page-header mb-5 mt-5">
+    <h4 class="pb-2">Icons</h4>
+    <p>Briar uses the <a class="underline" href="https://material.io/design/iconography/system-icons.html#design-principles" target="_blank" rel="noopener">Material Design Guidelines</a> for both Web and Android iconography. Please refer to these guidelines.</p>
 </div>
-<div class="mt-3">
-            <div class="row">
-
-                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
-                        <i class="material-icons">contacts</i>
-                    <div class="mb-1 text-center">
-                        <span style="font-size: 0.7rem">Contacts</span>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
-                    <i class="material-icons">group</i>
-                    <div class="mb-1 text-center">
-                        <span style="font-size: 0.7rem">Groups</span>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
-                    <i class="material-icons">question_answer</i>
-                    <div class="mb-1 text-center">
-                        <span style="font-size: 0.7rem">Forums</span>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
-                    <i class="material-icons">chrome_reader_mode</i>
-                    <div class="mb-1 text-center">
-                        <span style="font-size: 0.7rem">Blogs</span>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
-                    <i class="material-icons">settings</i>
-                    <div class="mb-1 text-center">
-                        <span style="font-size: 0.7rem">Settings</span>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
-                    <i class="material-icons">language</i>
-                    <div class="mb-1 text-center">
-                        <span style="font-size: 0.7rem">Internet</span>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
-                    <i class="material-icons">bluetooth</i>
-                    <div class="mb-1 text-center">
-                        <span style="font-size: 0.7rem">Bluetooth</span>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
-                    <i class="material-icons">network_wifi</i>
-                    <div class="mb-1 text-center">
-                        <span style="font-size: 0.7rem">Wi-Fi</span>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
-                    <i class="material-icons">error</i>
-                    <div class="mb-1 text-center">
-                        <span style="font-size: 0.7rem">Error</span>
-                    </div>
-                </div>
-
-
-                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
-                    <i class="material-icons">add_circle</i>
-                    <div class="mb-1 text-center">
-                        <span style="font-size: 0.7rem">FAB</span>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
-                    <i class="material-icons">cancel</i>
-                    <div class="mb-1 text-center">
-                        <span style="font-size: 0.7rem">Cancel</span>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
-                    <i class="material-icons">insert_link</i>
-                    <div class="mb-1 text-center">
-                        <span style="font-size: 0.7rem">Link</span>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
-                    <i class="material-icons">share</i>
-                    <div class="mb-1 text-center">
-                        <span style="font-size: 0.7rem">Share</span>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
-                    <i class="material-icons">insert_emoticon</i>
-                    <div class="mb-1 text-center">
-                        <span style="font-size: 0.7rem">Emoji</span>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
-                    <i class="material-icons">insert_photo</i>
-                    <div class="mb-1 text-center">
-                        <span style="font-size: 0.7rem">Media</span>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
-                    <i class="material-icons">send</i>
-                    <div class="mb-1 text-center">
-                        <span style="font-size: 0.7rem">Send</span>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
-                    <i class="material-icons">create</i>
-                    <div class="mb-1 text-center">
-                        <span style="font-size: 0.7rem">Write</span>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
-                    <i class="material-icons">repeat</i>
-                    <div class="mb-1 text-center">
-                        <span style="font-size: 0.7rem">Reblog</span>
-                    </div>
-                </div>
-
-                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
-                    <i class="material-icons">exit_to_app</i>
-                    <div class="mb-1 text-center">
-                        <span style="font-size: 0.7rem">Exit</span>
-                    </div>
-                </div>
-
-            </div>
-        </div>
+<div class="row no-gutters">
+    <div class="col-md-12">
+    	<a class="button btn-default-primary-big mr-2" href="https://google.github.io/material-design-icons/" target="_blank" rel="noopener">Download Icon Set</a>
+    	<a class="button btn-default-primary-big" href="#" target="_blank" rel="noopener">Download Icon Font</a>
+    </div>
+</div>
 
     <div id="assets" class="page-header mb-4 mt-5">
     <h2 class="b-border">Identity Assets</h2>
