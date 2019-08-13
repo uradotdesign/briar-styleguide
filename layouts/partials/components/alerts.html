@@ -1,149 +1,75 @@
 <div class="page-header mb-4">
-        <h2 id="alerts" class="b-border">Alerts</h2>
-        <p class="text-muted">Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
-      <p class="text-muted toggle">Toggle Snippets
+    <div class="align-horizontally flex-space-between">
+        <h4 id="alerts">Alerts</h4>
+      <p class="toggle m-0 p-0">Show Code Snippets
       <label class="switch">
-	  <input class="snippets" type="checkbox">
-	  <span class="slider round"></span>
-	  </label></p>
-</div>
-    <div class="row p-5 bg">
-        <div class="col-12 alert alert-primary" role="alert">
-            <p class="mb-0">Heads up! This alert needs your attention, but it's not super important.</p>
-		</div>
-                <div class="arrow_box mt-2 mb-4">
-				<pre class="p-3 prettyprint rb-code code-snippet">
-.alert-primary {
-border-radius: 3px !important;
-padding: 15px !important;
-margin-bottom: 25px;
-position: relative;
-color: #fff !important;
-background-color: #045fb4 !important;
-border-color: transparent !important;}</pre>
-</div>
-        <div class="col-12 alert alert-secondary" role="alert">
-            <p class="mb-0">Well done! This alert will show you some extra information.</p>
-        </div>
-        <div class="arrow_box mt-2 mb-4">
-        	<pre class="p-3 prettyprint rb-code code-snippet" style="border: none;">
-.alert-info {
-border-radius: 3px !important;
-padding: 15px !important;
-margin-bottom: 25px;
-position: relative;
-background-color: #f0f0f0 !important;
-border-color: transparent !important;}</pre>
-</div>
-        <div class="col-12 alert alert-success" role="alert">
-            <p class="mb-0">Well done! You successfully read this important alert link message.</p>
-        </div>
-            <div class="arrow_box mt-2 mb-4">
-            <pre class="p-3 prettyprint rb-code code-snippet" style="border: none;">
-.alert-success {
-border-radius: 3px !important;
-padding: 15px !important;
-margin-bottom: 25px;
-position: relative;
-background-color: #e5f8d1 !important;
-color: #3f6910 !important; 
-border-color: transparent !important;}</pre>
-</div>
-        <div class="col-12 alert alert-warning" role="alert">
-            <p class="mb-0">Warning! Better check yourself, you're not looking too good.</p>
-        </div>
-            <div class="arrow_box mt-2 mb-4">
-            <pre class="p-3 prettyprint rb-code code-snippet" style="border: none;">
-.alert-warning {
-border-radius: 3px !important;
-padding: 15px !important;
-margin-bottom: 25px;
-position: relative;
-color: #786600 !important;
-background-color: #fff7c9 !important;
-border-color: transparent !important;}</pre>
-</div>
-        <div class="col-12 alert alert-danger" role="alert">
-            <p class="mb-0">This is a danger alert — check it out!</p>
-        </div>
-            <div class="arrow_box mt-2 mb-4">
-            <pre class="p-3 prettyprint rb-code code-snippet" style="border: none;">
-.alert-danger {
-border-radius: 3px !important;
-padding: 15px !important;
-margin-bottom: 25px;
-position: relative;
-color: #801f00 !important;
-background-color: #ffd8cc !important;
-border-color: transparent !important;}</pre></div>
-        <div class="col-12 alert alert-success" role="alert">
-          <button class="btn-close" type="button" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
-            <p class="mb-0">Well done! You successfully read this important alert link message with a close button.</p>
-        </div>
-		<div class="arrow_box mt-2 mb-4">
-            <pre class="p-3 prettyprint rb-code code-snippet" style="border: none;">
-.alert-success {
-border-radius: 3px !important;
-padding: 15px !important;
-margin-bottom: 25px;
-position: relative;
-background-color: #e5f8d1 !important;
-color: #3f6910 !important; 
-border-color: transparent !important;}
-
-.btn-close {
-float: right;
-font-size: 21px;
-font-weight: 700;
-line-height: 1;
-opacity: .2;
-padding: 0;
-cursor: pointer;
-background: transparent;
-border: 0;
-color: currentColor;
-outline: none;}</pre></div>
-        <div class="col-12 alert alert-success global" role="alert">
-            <p class="mb-0">Well done! You successfully read this important global message.</p>
-        </div>
-		<div class="arrow_box mt-2 mb-4">
-            <pre class="p-3 prettyprint rb-code code-snippet" style="border: none;">
-.alert-success .global {
-border-radius: 3px !important;
-padding: 15px !important;
-margin-bottom: 25px;
-position: relative;
-background-color: #e5f8d1 !important;
-color: #3f6910 !important; 
-border-color: transparent !important;
-text-align: center;}</pre></div>
-        <div class="col-12 alert alert-secondary" role="alert">
-            <p class="mb-0"><i class="fas fa-exclamation-circle"></i> Well done! You successfully read this message with an icon.</p>
-        </div>
-		<div class="arrow_box mt-2 mb-4">
-            <pre class="p-3 prettyprint rb-code code-snippet" style="border: none;">
-.alert-info .icon {
-border-radius: 3px !important;
-padding: 15px !important;
-margin-bottom: 25px;
-position: relative;
-background-color: #f0f0f0 !important;
-border-color: transparent !important;}</pre></div>
-        <div class="col-12 alert alert-secondary" role="alert">
-                    <h4 class="alert-header">Well done!</h4>
-            <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-                    <hr>
-                    <p class="mb-0">Also some extra text and a <a href="#alerts" class="alert-link">link</a>.</p>
-        </div>
-        <div class="arrow_box mt-2 mb-4">
-            <pre class="p-3 prettyprint rb-code code-snippet" style="border: none;">
-.alert-secondary .alert-link {
-color: #202326;
-font-weight: 700;
-border-radius: 3px !important;
-padding: 15px !important;
-margin-bottom: 25px;
-position: relative;
-background-color: #f0f0f0 !important;
-border-color: transparent !important;}</pre></div>
+      <input class="snippets" type="checkbox">
+      <span class="slider round"></span>
+      </label>
+    </p>
     </div>
+        <span>
+            <div class="alert alert-tip mb-3" role="alert">
+            These are Web guidelines. For Android, please refer to the <a class="underline" href="https://material.io/design/typography/the-type-system.html" target="_blank" rel="noopener">Material Design guidelines</a>.
+            </div>
+        </span>
+        <p>Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
+</div>
+
+
+ <div class="row col-md-12 pt-3 p-0">
+         <div class="col-md-6 col-xs-12 mb-4">
+           <h5 class="pb-3">Generic</h5>
+           <div class="bg-smaller">
+            <div class="alert alert-generic" role="alert">
+                <button class="btn-close" type="button" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <i class="material-icons">info</i> Contact Link created
+        </div>
+           </div>
+            <p class="pt-3">Convey general information or actions that aren’t critical. Update users about a change or give them advice. Include lower priority information and should be dismissible.</p>
+           </div>
+
+         <div class="col-md-6 col-xs-12 mb-4">
+           <h5 class="pb-3">Success</h5>
+           <div class="bg-smaller">
+            <div class="alert alert-success" role="alert">
+            <i class="material-icons">check</i> Contact Link created
+            </div>
+           </div>
+            <p class="pt-3">Inform users when actions are successfully completed.</p>
+           </div>
+</div>
+
+ <div class="row col-md-12 pt-3 p-0">
+         <div class="col-md-6 col-xs-12 mb-4">
+           <h5 class="pb-3">Warning</h5>
+           <div class="bg-smaller">
+            <div class="alert alert-warning" role="alert">
+            <i class="material-icons orange">warning</i> Do not share this information with anyone!
+        </div>
+           </div>
+            <p class="pt-3">Convey general information or actions that aren’t critical. Update users about a change or give them advice. Include lower priority information and should be dismissible.</p>
+           </div>
+
+         <div class="col-md-6 col-xs-12 mb-4">
+           <h5 class="pb-3">Error</h5>
+           <div class="bg-smaller">
+            <div class="alert alert-error" role="alert">
+            <button class="btn-close" type="button" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <i class="material-icons red">error</i> Oops. Something went wrong.
+            </div>
+           </div>
+           </div>
+</div>
+
+<div class="row col-md-12 pt-3 p-0">
+         <div class="col-md-6 col-xs-12 mb-4">
+           <h5 class="pb-3">Tip</h5>
+           <div class="bg-smaller">
+            <div class="alert alert-tip" role="alert">
+                For Android, please refer to the <a class="underline" href="https://material.io/design/typography/the-type-system.html" target="_blank" rel="noopener">Material Design guidelines</a>.
+            </div>
+           </div>
+            <p class="pt-3">Give a tip and contextual information helpful for the user.</p>
+           </div>
+</div>

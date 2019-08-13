@@ -1,14 +1,17 @@
-<h1 id="forms"> </h1>
-<div class="page-header mb-4 mt-5">
-    <h2 class="b-border">Forms</h2>
-      <p class="text-muted toggle pt-2">Toggle Snippets
+<div id="forms" class="page-header mb-4 mt-5">
+    <div class="align-horizontally flex-space-between">
+        <h4 id="forms">Forms</h4>
+      <p class="toggle m-0 p-0">Show Code Snippets
       <label class="switch">
-	  <input class="snippets" type="checkbox">
-	  <span class="slider round"></span>
-	  </label></p>
+      <input class="snippets" type="checkbox">
+      <span class="slider round"></span>
+      </label>
+    </p>
 </div>
-<div class="row">
-    <form class="bg p-5 col-sm-6">
+<div class="row no-gutters">
+    <div class="col-md-3">
+    </div>
+    <form class="pt-3 col-md-6">
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -21,10 +24,10 @@
         <div class="form-check">
             <label class="form-check-label">
                 <input type="checkbox" class="form-check-input">
-                Check me out
+                <span class="ml-2">Check me out</span>
             </label>
         </div>
-        <button type="submit" class="btn btn-medium mt-4" onclick="return false;">Submit</button>
+        <button type="submit" class="btn btn-primary mt-4" onclick="return false;">Submit</button>
 
         <div class="arrow_box mt-4 mb-4">
 <pre class="p-3 prettyprint rb-code code-snippet">
@@ -65,4 +68,6 @@ padding-left: 1.25rem;}
 margin-bottom: 0;}
    </pre></div>
     </form>
+    <div class="col-md-3">
+    </div>
 </div>

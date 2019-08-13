@@ -1,5 +1,86 @@
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-weight: 600 !important;
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font !important;
+}
+
+h1 {
+  font-size: 96px !important;
+  font-weight: 300 !important;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  font-size: 60px !important;
+  font-weight: 300 !important;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  font-size: 48px !important;
+  font-weight: normal !important;
+  letter-spacing: 0px;
+}
+
+h4 {
+  font-size: 34px !important;
+  font-weight: normal !important;
+  letter-spacing: 0.25px;
+}
+
+h5 {
+  font-size: 24px !important;
+  font-weight: normal !important;
+  letter-spacing: 0px;
+}
+
+h6 {
+  font-size: 20px !important;
+  font-weight: medium !important;
+  letter-spacing: 0.15px;
+}
+
+.subtitle {
+  &-1 {
+  font-size: 16px !important;
+  font-weight: normal !important;
+  letter-spacing: 0.15px;
+  }
+  &-2 {
+  font-size: 14px !important;
+  font-weight: medium !important;
+  letter-spacing: 0.1px;
+  }
+}
+
+.body {
+  &-2 {
+  font-size: 16px !important;
+  font-weight: normal !important;
+  letter-spacing: 0.5px;
+  }
+  &-2 {
+  font-size: 14px !important;
+  font-weight: normal !important;
+  letter-spacing: 0.25px;
+  }
+}
+
+.button {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  letter-spacing: 1.25px;
+}
+
+.caption {
+  font-size: 12px !important;
+  font-weight: normal !important;
+  letter-spacing: 0.4px;
+}
+
+.overline {
+  font-size: 10px !important;
+  font-weight: normal !important;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 
 .text-muted {
@@ -177,7 +258,20 @@
 	color: var(--hover) !important;
 }
 
+.curved {
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.break {
+  word-break: break-all;
+}
+
 .bg {
+    padding: 35px 50px;
 	&-primary {
 		background-color: $primary !important;
 	}
@@ -187,11 +281,31 @@
 }
 
 .bg-box {
-  background-color: #f1f3f5 !important;
+  padding: 35px 40px;
+  border: 1px solid var(--box);
+  background: var(--box-bg);
+  box-sizing: border-box;
 }
 
-.b-border {
-  border-bottom: 2px solid lightgrey !important;
+.bg-buttons {
+  padding: 35px 40px;
+  border: 1px solid var(--box);
+  background: transparent;
+  box-sizing: border-box;
+}
+
+.bg-smaller {
+  padding: 60px 15px;
+  border: 1px solid var(--box);
+  background: var(--box-bg);
+  box-sizing: border-box;
+}
+
+.bg-smallest {
+  padding: 20px;
+  border: 1px solid var(--box);
+  background: var(--box-bg);
+  box-sizing: border-box;
 }
 
 @media (min-width:992px) {
@@ -200,8 +314,27 @@
   }
 }
 
+table {
+  width: 100%;
+  overflow: scroll;
+}
+
+table, th, td {
+  border: 1px solid $gray-700;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
 .bold {
   font-weight: bold;
+}
+
+span {
+  display: inline-block;
 }
 
 .inverted {

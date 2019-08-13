@@ -1,140 +1,128 @@
 <div id="typography" class="page-header mb-4 mt-5">
-  <h2 class="b-border">Typography</h2>
-  <p class="text-muted">Our main typography is Inter UI made by <a href="https://rsms.me" target="_blank" rel="noopener">Rasmus Andresson</a> and Roboto for Android.</p>
-</div>
-<div class="row">
-
-  <form class="pt-3 pb-3 col-md-8">
-    <div data-tabs="">
-
-      <input type="radio" name="ptabs" id="platform-web" checked="checked">
-      <label for="platform-web">Web</label>
-      <div data-tab="" class="grid-2">
-
-        <p><img src="/images/typography/typography-inter.svg" alt="Inter UI font"></p>
-
-        <div>
-          <p><a href="https://rsms.me/inter/" target="_blank" rel="noopener">Inter UI</a> is the typeface used in Briar web interfaces.</p>
-        </div>
-
-      </div>
-
-      <input type="radio" name="ptabs" id="platform-android">
-      <label for="platform-android">Android</label>
-      <div data-tab="" class="grid-2">
-
-        <p><img src="../images/typography/typography-roboto.svg" alt="Roboto font"></p>
-
-        <div>
-          <p><a href="https://fonts.google.com/specimen/Roboto" target="_blank" rel="noopener">Roboto</a> is the typeface used in Briar Android products.</p>
-        </div>
-
-      </div>
-
-
-    </div>
-  </form>
-
-  <div class="col-12">
-    <div class="col-md-8 col-sm-12 border-gray-200 p-5">
-      <p class="font-20">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
-      <p class="font-20">a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-      <p class="font-20">0 1 2 3 4 5 6 7 8 9</p>
-    </div>
-
-    <h3 class="pt-5">Font sizes</h3>
-    <p class="text-muted">The font scale consists of 6 different font sizes.</p>
-
-    <form class="pt-3 pb-3 col-md-8">
-      <div data-tabs="">
-
-        <input type="radio" name="ptabs" id="font-web" checked="checked">
-        <label for="font-web">Web</label>
-        <div data-tab="" class="grid-2">
-
-          <p><img src="/images/typography/typography-inter.svg" alt="Inter UI font"></p>
-
-          <div>
-            <p><a href="https://rsms.me/inter/" target="_blank" rel="noopener">Inter UI</a> is the typeface used in Briar web interfaces.</p>
-          </div>
-
-        </div>
-
-        <input type="radio" name="ptabs" id="font-android">
-        <label for="font-android">Android</label>
-        <div data-tab="" class="grid-2">
-
-          <p><img src="../images/typography/typography-roboto.svg" alt="Roboto font"></p>
-
-          <div>
-            <p><a href="https://fonts.google.com/specimen/Roboto" target="_blank" rel="noopener">Roboto</a> is the typeface used in Briar Android products. The type system is used according to the <a href="https://material.io/design/typography/the-type-system.html" target="_blank" rel="noopener">Material Design guidelines.</a></p>
-          </div>
-
-        </div>
-
-
-      </div>
-    </form>
-
-    <div class="col-md-8 border-gray-200 p-4 antiscroll">
-
-      <h1>The quick brown fox jumps over the lazy dog</h1>
-      <p class="text-black small text-muted">H1</p>
-    </div>
-
-    <div class="col-md-8 border-gray-200 p-4 antiscroll">
-
-      <h2>The quick brown fox jumps over the lazy dog</h2>
-      <p class="text-black small text-muted">H2</p>
-    </div>
-
-    <div class="col-md-8 border-gray-200 p-4 antiscroll">
-
-      <h3>The quick brown fox jumps over the lazy dog</h3>
-      <p class="text-black small text-muted">H3</p>
-    </div>
-
-    <div class="col-md-8 border-gray-200 p-4 antiscroll">
-
-      <h4>The quick brown fox jumps over the lazy dog</h4>
-      <p class="text-black small text-muted">H4</p>
-    </div>
-
-    <div class="col-md-8 border-gray-200 p-4 antiscroll">
-
-      <h5>The quick brown fox jumps over the lazy dog</h5>
-      <p class="text-black small text-muted">H5</p>
-    </div>
-
-    <div class="col-md-8 border-gray-200 p-4 antiscroll">
-
-      <h6>The quick brown fox jumps over the lazy dog</h6>
-      <p class="text-black small text-muted">H6</p>
-    </div>
-
+  <h4 class="pb-2">Typography</h4>
+  <span>
+  <div class="alert alert-tip" role="alert">
+    These are Web guidelines. For Android, please refer to the <a class="underline" href="https://material.io/design/typography/the-type-system.html" target="_blank" rel="noopener">Material Design guidelines</a>.
   </div>
+</span>
+  <p class="pt-3">Briar’s typography system slightly differs from platform to platform. On the web, we use a slightly modified version of the <a class="underline" href="https://material.io/design/typography/the-type-system.html" target="_blank" rel="noopener">Material Design typography guidelines</a> using the <a class="underline" href="https://rsms.me" target="_blank" rel="noopener">Inter typeface by Rasmus Andersson</a> and <a class="underline" href="https://fonts.google.com/specimen/Roboto" target="_blank" rel="noopener">Roboto Mono</a> for code snippets and other cases where a monospace font might be required.</p>
 </div>
-<div class="row pt-5">
+
+<div class="row mono no-gutters">
+ <table>
+  <tr class="mono">
+    <th>Scale Category</th>
+    <th>Font Weight</th>
+    <th>Size</th>
+    <th>Case</th>
+    <th>Letter spacing</th>
+  </tr>
+  <tr>
+    <td><h1>H1</h1></td>
+    <td>Light</td>
+    <td>96</td>
+    <td>Sentence</td>
+    <td>-1.5</td>
+  </tr>
+  <tr>
+    <td><h2>H2</h2></td>
+    <td>Light</td>
+    <td>60</td>
+    <td>Sentence</td>
+    <td>-0.5</td>
+  </tr>
+  <tr>
+    <td><h3>H3</h3></td>
+    <td>Regular</td>
+    <td>48</td>
+    <td>Sentence</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><h4>H4</h4></td>
+    <td>Regular</td>
+    <td>34</td>
+    <td>Sentence</td>
+    <td>0.25</td>
+  </tr>
+  <tr>
+    <td><h5>H5</h5></td>
+    <td>Regular</td>
+    <td>24</td>
+    <td>Sentence</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><h6>H6</h6></td>
+    <td>Medium</td>
+    <td>20</td>
+    <td>Sentence</td>
+    <td>0.15</td>
+  </tr>
+  <tr>
+    <td><p class="subtitle-1 p-0 m-0">Subtitle 1</p></td>
+    <td>Regular</td>
+    <td>16</td>
+    <td>Sentence</td>
+    <td>0.15</td>
+  </tr>
+  <tr>
+    <td><p class="subtitle-2 p-0 m-0">Subtitle 2</p></td>
+    <td>Medium</td>
+    <td>14</td>
+    <td>Sentence</td>
+    <td>0.1</td>
+  </tr>
+  <tr>
+    <td><p class="body-1 p-0 m-0">Body 1</p></td>
+    <td>Regular</td>
+    <td>16</td>
+    <td>Sentence</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><p class="body-2 p-0 m-0">Body 2</p></td>
+    <td>Regular</td>
+    <td>14</td>
+    <td>Sentence</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td><p class="button p-0 m-0">Button</p></td>
+    <td>Medium</td>
+    <td>14</td>
+    <td>Sentence</td>
+    <td>0.5</td>
+  </tr>
+  <tr>
+    <td><p class="caption p-0 m-0">Caption</p></td>
+    <td>Regular</td>
+    <td>12</td>
+    <td>Sentence</td>
+    <td>0.4</td>
+  </tr>
+  <tr>
+    <td><p class="overline p-0 m-0">Overline</p></td>
+    <td>Regular</td>
+    <td>10</td>
+    <td>All Caps</td>
+    <td>1.5</td>
+  </tr>
+</table>
+</div>
+
+<div class="row no-gutters pt-5">
   <div class="col-md-5">
-    <p class="text-black small">
-      <span class="text-left color-gray-2 rb-isBold">Paragraph</span>
-      <span class="text-right color-primary rb-isBold" style="float: right;">Inter UI Regular</span>
-    </p>
-    <p>
-      Briar is a messaging app designed for activists, journalists, and anyone else who needs a <mark>safe</mark>, easy and robust way to communicate.
-    </p>
+    <h5 class="pb-2">Links</h5>
+    <div class="bg-box">This is a paragraph with a <a class="underline" href="#">Link</a>.</div>
+    <p class="pt-3">In paragraphs (not UI components) links are underlined for accessibility reasons.</p>
   </div>
   <div class="col-md-1"></div>
   <div class="col-md-6">
-    <p class="text-black small">
-      <span class="text-left color-gray-2 rb-isBold">Code Snippet</span>
-      <span class="text-right color-primary rb-isBold" style="float: right;">Inter</span>
-    </p>
-    <pre class="bg-light p-2 prettyprint rb-code" style="border: none;">
-          $('.br-sidebar').on('click', 'a',function() {
-              $('.br-sidebar a.active').removeClass('active');
-              $(this).addClass('active');
-          });
-        </pre>
+    <h5 class="pb-2">Monospace</h5>
+    <div class="bg">
+      <p class="p-0 m-0 mono break">briar://adotxjsvndqs5olgvplspnyhaptdsaewfsddfcwasrfredj98jidhnbfsicnjdfngksdhujnlglahnd</p>
+    </div>
+    <p class="pt-3">In some cases (such as code snippets or contact links) a mono space typeface is required. We use <a class="underline" href="https://fonts.google.com/specimen/Roboto" target="_blank" rel="noopener">Roboto Mono</a> with a slightly darker or lighter shade background to distinguish the snippet from other text.</p>
   </div>
 </div>

@@ -19,11 +19,11 @@ body:after{
 
 a {
   text-decoration: none !important;
-  color: $lime-700 !important;
+  color: $blue-500 !important;
 }
 
 a:hover {
-    color: $lime-800 !important;
+    color: $blue-600 !important;
   }
 
 :root {
@@ -41,11 +41,24 @@ a:hover {
     --snippet-bg: #{$gray-200};
     --hover: #{$black};
     --border: #{$gray-300};
-    --card-bg: #{$gray-50};
+    --card-bg: #{$gray-100};
     --bg-hover: #{$gray-200};
     --navtop-color: #{$white};
-    --navtop-hover: #{&black};
+    --navtop-hover: #{$black};
     --muted: #6c757d;
+    --box: #{$gray-200};
+    --box-bg: transparent;
+    --box-buttons-bg: transparent;
+    --default-bg: #{$gray-200};
+    --default-hover: #{$gray-300};
+    --default-pressed: #{$gray-500};
+    --default-disabled: #{$gray-200};
+    --alert-generic: #{$gray-100};
+    --alert-success: #{$lime-200};
+    --alert-warning: #{$orange-200};
+    --alert-warning-text: #{$gray-950};
+    --alert-warning-icon: #{$orange-800};
+    --alert-tip: #{$blue-100};
 }
 
 .dark {
@@ -68,4 +81,16 @@ a:hover {
     --navtop-color: #{$white};
     --navtop-hover: #{$gray-600};
     --muted: #{$white};
+    --box: #{$night-700};
+    --box-bg: #{$night-800};
+    --default-bg: rgba(255, 255, 255, 0.1);
+    --default-hover: rgba(255, 255, 255, 0.05);
+    --default-pressed: rgba(0, 0, 0, 0.2);
+    --default-disabled: rgba(255, 255, 255, 0.025);
+    --alert-generic: #{$night-700};
+    --alert-success: #{$lime-700};
+    --alert-warning: #{$orange-800};
+    --alert-warning-text: #{$orange-50};
+    --alert-warning-icon: #{$orange-200};
+    --alert-tip: #{$blue-800};
 }
