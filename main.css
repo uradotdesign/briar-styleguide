@@ -206,7 +206,7 @@ h6 {
   cursor: pointer;
 }
 
-.round {
+.circles {
   border-radius: 50% !important;
   width: 55px;
   height: 55px;
