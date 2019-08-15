@@ -4,7 +4,7 @@ permalink: /design/
 type: design
 sidebar_design:
   - colors: Colors
-  - grid: Grid
+  - spacing: Spacing
   - typography: Typography
   - icons: Icons
 ---

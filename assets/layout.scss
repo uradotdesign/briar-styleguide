@@ -107,7 +107,7 @@ h6 {
   background: var(--logo);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 50%;
+  background-size: 60%;
 }
 
 .hero-header {
@@ -208,6 +208,12 @@ h6 {
     cursor: pointer;
 }
 
+.round {
+  border-radius: 50% !important;
+  width: 55px;
+  height: 55px;
+}
+
 .row {
   margin: auto !important;
 }
@@ -250,6 +256,9 @@ h6 {
   .hidden-sm {
     display: none !important;
   }
+  .hero-header {
+    height: auto !important;
+  }
 }
 
 .list-group-item:focus,
@@ -265,8 +274,8 @@ h6 {
 
 .curved {
   border-radius: 10px;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -343,11 +352,19 @@ span {
 }
 
 .inverted {
-  color: $white;
+  color: $white !important;
 }
 
 .f-small {
   text-transform: lowercase;
+}
+
+.color-details--section {
+  color: $gray-900;
+}
+
+.color-details--section > .bold {
+  color: var(--text) !important;
 }
 
 // Dropdown
@@ -374,6 +391,10 @@ span {
 
 .dropdown-item:focus, .dropdown-item:hover {
   background-color: var(--sidebar-bg) !important;
+}
+
+.dropdown-item {
+  color: var(--text) !important;
 }
 
 .colors {
@@ -403,6 +424,7 @@ span {
 
     .variable {
       flex-grow: 2;
+      color: $gray-900;
     }
 
     .hex {
