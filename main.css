@@ -266,6 +266,7 @@ h6 {
 
 .list-group-item.active {
   color: var(--hover) !important;
+  background-color: var(--sidebar-bg) !important;
 }
 
 .curved {
