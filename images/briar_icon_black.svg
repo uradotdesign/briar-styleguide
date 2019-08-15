@@ -1,4 +1,65 @@
-<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M43.9187 0C37.3537 0 31.9415 5.41225 31.9415 11.9772V27.2025H61.4461V11.9772C61.4461 5.41225 56.0996 0 49.5346 0H43.9187ZM109.562 0C102.997 0 97.5848 5.41225 97.5848 11.9772V92.8458H127.089V11.9772C127.089 5.41225 121.743 0 115.178 0H109.562ZM31.9415 66.1819V147.05C31.9415 153.615 37.288 159.028 43.9187 159.028H49.5346C56.0996 159.028 61.5118 153.615 61.5118 147.05V66.1819H31.9415ZM97.5815 131.825V147.05C97.5815 153.615 102.997 159.028 109.559 159.028H115.175C121.74 159.028 127.152 153.615 127.152 147.05V131.825C127.155 131.825 97.5815 131.825 97.5815 131.825Z" fill="black"/>
-<path d="M11.9772 31.9384C5.41225 31.9384 0 37.2849 0 43.9156V49.5315C0 56.0964 5.34657 61.5087 11.9772 61.5087H92.8458V31.9384H11.9772ZM131.825 31.9384V61.512H147.05C153.615 61.512 159.028 56.1654 159.028 49.5347V43.9189C159.028 37.2882 153.615 31.9416 147.05 31.9416H131.825V31.9384ZM11.9772 97.5816C5.41225 97.5816 0 102.928 0 109.559V115.175C0 121.74 5.34657 127.152 11.9772 127.152H27.2025V97.5816H11.9772ZM66.1819 97.5816V127.155H147.05C153.615 127.155 159.028 121.74 159.028 115.178V109.562C159.028 102.931 153.615 97.5849 147.05 97.5849L66.1819 97.5816Z" fill="black"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="90"
+   height="90"
+   viewBox="0 0 90 90"
+   fill="none"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="briar_icon_black.svg"
+   inkscape:export-filename="/home/anxhelo/briar-styleguide/static/images/briar_icon_black.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320"
+   inkscape:version="0.92.4 (unknown)">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="717"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="2.6222222"
+     inkscape:cx="45"
+     inkscape:cy="45"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <path
+     d="M25.014 0C21.3265 0 18.2864 3.06 18.2864 6.77175V15.3799H34.8592V6.77175C34.8592 3.06 31.856 0 28.1685 0H25.014ZM61.886 0C58.1984 0 55.1584 3.06 55.1584 6.77175V52.4936H71.7312V6.77175C71.7312 3.06 68.728 0 65.0404 0H61.886ZM18.2864 37.4182V83.14C18.2864 86.8518 21.2896 89.9118 25.014 89.9118H28.1685C31.856 89.9118 34.8961 86.8518 34.8961 83.14V37.4182H18.2864ZM55.1565 74.5319V83.14C55.1565 86.8518 58.1984 89.9118 61.8841 89.9118H65.0386C68.7262 89.9118 71.7662 86.8518 71.7662 83.14V74.5319C71.7681 74.5319 55.1565 74.5319 55.1565 74.5319Z"
+     fill="#74B816"
+     id="path2"
+     style="fill:#000000" />
+  <path
+     d="M7.07237 18.0576C3.3848 18.0576 0.344727 21.0805 0.344727 24.8294V28.0045C0.344727 31.7162 3.34791 34.7762 7.07237 34.7762H52.4964V18.0576H7.07237ZM74.3912 18.0576V34.7781H82.9433C86.6308 34.7781 89.6709 31.7552 89.6709 28.0063V24.8312C89.6709 21.0823 86.6308 18.0595 82.9433 18.0595H74.3912V18.0576ZM7.07237 55.1713C3.3848 55.1713 0.344727 58.1942 0.344727 61.9431V65.1182C0.344727 68.8299 3.34791 71.8899 7.07237 71.8899H15.6244V55.1713H7.07237ZM37.5192 55.1713V71.8918H82.9433C86.6308 71.8918 89.6709 68.8299 89.6709 65.12V61.9449C89.6709 58.196 86.6308 55.1732 82.9433 55.1732L37.5192 55.1713Z"
+     fill="#82C91E"
+     id="path4"
+     style="fill:#000000" />
 </svg>

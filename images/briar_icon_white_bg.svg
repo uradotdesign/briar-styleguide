@@ -13,8 +13,8 @@
    fill="none"
    version="1.1"
    id="svg6"
-   sodipodi:docname="briar_icon_color.svg"
-   inkscape:export-filename="/home/anxhelo/briar-styleguide/static/images/briar_icon_color.png"
+   sodipodi:docname="briar_icon_white_bg.svg"
+   inkscape:export-filename="/home/anxhelo/briar-styleguide/static/images/briar_icon_white_bg.png"
    inkscape:export-xdpi="320"
    inkscape:export-ydpi="320"
    inkscape:version="0.92.4 (unknown)">
@@ -51,13 +51,23 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg6" />
+     inkscape:current-layer="svg6"
+     inkscape:snap-page="true" />
+  <rect
+     style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05143619;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+     id="rect884"
+     width="90"
+     height="90"
+     x="0"
+     y="0" />
   <path
      d="M25.014 0C21.3265 0 18.2864 3.06 18.2864 6.77175V15.3799H34.8592V6.77175C34.8592 3.06 31.856 0 28.1685 0H25.014ZM61.886 0C58.1984 0 55.1584 3.06 55.1584 6.77175V52.4936H71.7312V6.77175C71.7312 3.06 68.728 0 65.0404 0H61.886ZM18.2864 37.4182V83.14C18.2864 86.8518 21.2896 89.9118 25.014 89.9118H28.1685C31.856 89.9118 34.8961 86.8518 34.8961 83.14V37.4182H18.2864ZM55.1565 74.5319V83.14C55.1565 86.8518 58.1984 89.9118 61.8841 89.9118H65.0386C68.7262 89.9118 71.7662 86.8518 71.7662 83.14V74.5319C71.7681 74.5319 55.1565 74.5319 55.1565 74.5319Z"
      fill="#74B816"
-     id="path2" />
+     id="path2"
+     style="fill:#ffffff" />
   <path
      d="M7.07237 18.0576C3.3848 18.0576 0.344727 21.0805 0.344727 24.8294V28.0045C0.344727 31.7162 3.34791 34.7762 7.07237 34.7762H52.4964V18.0576H7.07237ZM74.3912 18.0576V34.7781H82.9433C86.6308 34.7781 89.6709 31.7552 89.6709 28.0063V24.8312C89.6709 21.0823 86.6308 18.0595 82.9433 18.0595H74.3912V18.0576ZM7.07237 55.1713C3.3848 55.1713 0.344727 58.1942 0.344727 61.9431V65.1182C0.344727 68.8299 3.34791 71.8899 7.07237 71.8899H15.6244V55.1713H7.07237ZM37.5192 55.1713V71.8918H82.9433C86.6308 71.8918 89.6709 68.8299 89.6709 65.12V61.9449C89.6709 58.196 86.6308 55.1732 82.9433 55.1732L37.5192 55.1713Z"
      fill="#82C91E"
-     id="path4" />
+     id="path4"
+     style="fill:#ffffff" />
 </svg>
