@@ -100,6 +100,15 @@ h6 {
   }
 }
 
+.hero-header .h3 {
+  color: var(--header-text);  
+}
+
+.hero-header .h4 {
+  color: var(--header-text);  
+}
+
+
 .navbar-wide-logo {
   padding: 2.5rem 0rem;
   text-align: center;
@@ -113,10 +122,9 @@ h6 {
 .hero-header {
   text-align: center;
   height: 320px;
-  background: url("../images/app.svg");
+  background: var(--header-svg);
   background-repeat: repeat;
   background-position: center;
-  background-color: var(--header-bg);
 }
 
 .sidebar {
@@ -131,10 +139,6 @@ h6 {
 
   & .material-icons {
     letter-spacing: 10px;
-    transition-timing-function: linear;
-    -webkit-transition-timing-function: linear;
-    -webkit-transition-duration: .3s;
-    transition-duration: .3s;
     float: left;
   }
 
@@ -442,7 +446,7 @@ span {
       flex-grow: 2;
       flex-basis: 50%;
 
-      .pass { color: $lime-600; }
+      .pass { color: $lime-700; }
       .fail { color: $red-500; }
     }
   }

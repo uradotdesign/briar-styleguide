@@ -35,7 +35,8 @@ a:hover {
     --link-hover: #{$blue-600};
     --logo: url("../images/wide-logo.png");
     --logo-bg: #{$white};
-    --header-bg: #{$night-400};
+    --header-svg: url("../images/app.svg");
+    --header-text: #{$gray-950};
     --sidebar-bg: #{$gray-100};
     --sidebar-inner-bg: #{$gray-50};
     --sidebar-text: #{$gray-800};
@@ -72,7 +73,8 @@ a:hover {
     --link-hover: #{$gray-200};
     --logo: url("../images/logo-text-white.png");
     --logo-bg: #{$night-900};
-    --header-bg: #{$night-600};
+    --header-svg: url("../images/app-dark.svg");
+    --header-text: #{$gray-950};
     --sidebar-bg: #{$night-800};
     --sidebar-inner-bg: #{$night-700};
     --sidebar-text: #{$gray-100};
