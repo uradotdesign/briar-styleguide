@@ -6,9 +6,8 @@
               <li class="list-group-item rb-main-sidebar"><i class="material-icons">navigation</i> Getting Started</li>
               {{ range .Params.sidebar_start }}
                 {{ range . }}
-                  <!-- first index -->
                   <a href="#{{ (lower .) | anchorize }}"><li class="list-group-item rb-sidebar inner-sidebar">
-                    {{ . }} <!-- second index -->
+                    {{ . }}
                   </li></a>
                 {{ end }}
               {{ end }}
@@ -18,9 +17,8 @@
               <li class="list-group-item rb-main-sidebar"><i class="material-icons">star</i> Brand</li>
               {{ range .Params.sidebar_brand }}
                 {{ range . }}
-                  <!-- first index -->
                   <a href="#{{ (lower .) | anchorize }}"><li class="list-group-item rb-sidebar inner-sidebar">
-                    {{ . }} <!-- second index -->
+                    {{ . }}
                   </li></a>
                 {{ end }}
               {{ end }}
@@ -30,9 +28,8 @@
               <li class="list-group-item rb-main-sidebar"><i class="material-icons">create</i> Design</li>
               {{ range .Params.sidebar_design }}
                 {{ range . }}
-                  <!-- first index -->
                   <a href="#{{ (lower .) | anchorize }}"><li class="list-group-item rb-sidebar inner-sidebar">
-                    {{ . }} <!-- second index -->
+                    {{ . }}
                   </li></a>
                 {{ end }}
               {{ end }}
@@ -42,25 +39,25 @@
               <li class="list-group-item rb-main-sidebar"><i class="material-icons">layers</i> Components</li>
               {{ range .Params.sidebar_components }}
                 {{ range . }}
-                  <!-- first index -->
                   <a href="#{{ (lower .) | anchorize }}"><li class="list-group-item rb-sidebar inner-sidebar">
-                    {{ . }} <!-- second index -->
+                    {{ . }}
                   </li></a>
                 {{ end }}
               {{ end }}
           </a>
 
+          <!--
           <a href="/writing/" class="sidebar__link__darkGray">
               <li class="list-group-item rb-main-sidebar"><i class="material-icons">text_format</i> Writing</li>
               {{ range .Params.sidebar_writing }}
                 {{ range . }}
-                  <!-- first index -->
                   <a href="#{{ (lower .) | anchorize }}"><li class="list-group-item rb-sidebar inner-sidebar">
-                    {{ . }} <!-- second index -->
+                    {{ . }}
                   </li></a>
                 {{ end }}
               {{ end }}
           </a>
+          -->
 
           <a class="sidebar__link__darkGray stick-bottom">
               <li class="list-group-item rb-main-sidebar" id="themer" onclick="dark();"><i class="material-icons">brightness_2</i> Dark Theme</li>
