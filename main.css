@@ -424,6 +424,7 @@ span {
 .colors .color-overview .hex {
   transition: .15s linear;
   opacity: 0;
+  color: #2E2E2E;
 }
 
 .colors .color-details {
