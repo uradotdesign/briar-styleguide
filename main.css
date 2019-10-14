@@ -126,7 +126,7 @@ h6 {
 
 .sidebar {
   height: 100%;
-  width: 18.66666667%;
+  width: 16.666667%;
   background-color: var(--sidebar-bg);
   position: fixed;
   z-index: 9999;
@@ -1089,7 +1089,7 @@ span {
 }
 
 .mono {
-  font-family: "Roboto Mono" !important;
+  font-family: "Roboto Mono", monospace !important;
 }
 
 .inter {
@@ -1537,6 +1537,26 @@ input:checked + .slider:before {
 .bg-grey {
   background-color: #dee2e6 !important;
   color: #000;
+}
+
+.contrast-blue {
+  color: #222222 !important;
+}
+
+.contrast-orange {
+  color: #161616 !important;
+}
+
+.contrast-red {
+  color: #1D1D1D !important;
+}
+
+.contrast-night {
+  color: #0F0F0F !important;
+}
+
+.contrast-gray {
+  color: #2A2A2A !important;
 }
 
 @media (min-width: 992px) {
