@@ -19,7 +19,7 @@ $(".snippets").click(function() {
 });
 
 $(".snippets-buttons").click(function() {
-  $(this).closest("div").find(".code-snippet-2").toggle();
+  $(this).closest("div").closest(".row").find(".code-snippet-2").toggle();
   $(this).closest("div").closest(".row").find(".arrow_box").toggle();
 });
 
