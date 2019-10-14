@@ -1035,3 +1035,21 @@ input:checked + .slider:before {
 	background-color: #dee2e6 !important;
 	color: #000;
 }
+
+.contrast {
+  &-blue {
+  color: #222222 !important;
+  }
+  &-orange {
+    color: #161616 !important;
+  }
+  &-red {
+    color: #1D1D1D !important;
+  }
+  &-night {
+    color: #0F0F0F !important;
+  }
+  &-gray {
+    color: #2A2A2A !important;
+  }
+}
