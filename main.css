@@ -274,10 +274,10 @@ h6 {
 
 .curved {
   border-radius: 10px;
-  width: 80px;
-  height: 80px;
+  width: 75px;
+  height: 75px;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 
 .break {
@@ -1560,7 +1560,7 @@ input:checked + .slider:before {
 
 body {
   color: var(--text) !important;
-  font-family: "Inter", sans-serif !important !important;
+  font-family: "Inter", sans-serif !important;
   font-size: 1rem;
   background-color: var(--body) !important;
 }
