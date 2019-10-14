@@ -7,11 +7,11 @@
   {{- $options := (dict "targetPath" "main.css" "outputStyle" "expanded" "enableSourceMap" "true") -}}
   {{- $styles := resources.Get "/main.scss" | resources.ToCSS $options }}
   <link rel = 'stylesheet' href = '{{ $styles.Permalink }}' integrity = '{{ $styles.Data.Integrity }}'>
-  <link href='/fonts/inter.css' rel="stylesheet">
-  <link href='/fonts/roboto.css' rel="stylesheet">
   <link rel="stylesheet" href='/css/bootstrap.min.css'>
   <link rel="stylesheet" href='/css/material-icons.css'>
   <link rel="stylesheet" href='/css/all.min.css'>
+  <link rel="stylesheet" href='/fonts/inter.css'>
+  <link rel="stylesheet" href='/fonts/roboto.css'>
   <noscript>
     <style type="text/css">
         .code-snippet {display:block;}
